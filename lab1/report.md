@@ -105,4 +105,8 @@ lab1-ai-draft 完整提交编号：{{AI_DRAFT_COMMIT}}
 
 lab1-final 完整提交编号：{{FINAL_COMMIT}}
 
-最终提交包仅含report.pdf、requirements.md和chat.txt；两个文本须与lab1-final逐字节相同。学号姓名仅在本地提交版填入，公开仓库不保存。
+本次提交仓库为新建的实验1提交仓库，继承原项目初稿与审查历史；原项目仓库及其lab1-final（6961d411925b492dbdf4ec3a24a8e96f004d2b7d）保持不变。本仓库lab1-final在保存用户修改后首次创建，本次提交包以该新标签为准。
+
+原项目仓库：https://github.com/unfinities/software-engineering-labs-2026
+
+最终提交包仅含report.pdf、requirements.md和chat.txt，两个文本与本仓库lab1-final逐字节相同。学号、个人版报告和ZIP仅在本地保存；chat.txt保留用户补充的参与人字段。
