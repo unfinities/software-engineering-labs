@@ -6,7 +6,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ["类型", "来源", "优先级", "状态", "需求描述", "前置条件", "正常结果", "异常或边界情况", "验收方法", "关联需求"]
-UNFINISHED = re.compile(r"待确认|待填写|待访谈|\[|未约定|暂无|待补充")
+# Explicit placeholders only: 未约定 can also describe an intentional scope boundary.
+UNFINISHED = re.compile(r"(?<!等)待确认|待填写|待访谈|\[|暂无|待补充")
 
 
 def check():
