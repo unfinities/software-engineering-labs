@@ -13,7 +13,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, CondPageBreak
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = "https://github.com/unfinities/software-engineering-labs-2026"
@@ -85,7 +85,14 @@ def main():
                 if not all(re.fullmatch(r":?-+:?", value) for value in values):
                     rows.append([Paragraph(escape(value), cell) for value in values])
                 index += 1
-            table = Table(rows, colWidths=[width / len(rows[0])] * len(rows[0]), repeatRows=1, hAlign="LEFT")
+            weights = {
+                "阶段": [.85, 2.2, 1.95], "对象": [.85, 2.1, 2.05],
+                "商品状态": [.8, 2.4, 1.8], "预约阶段": [1.4, 1.8, 1.8],
+                "类别及需求": [.95, 3.3, .75], "场景": [1.25, 3.75],
+            }.get(rows[0][0].getPlainText(), [1] * len(rows[0]))
+            if len(weights) != len(rows[0]):
+                weights = [1] * len(rows[0])
+            table = Table(rows, colWidths=[width * value / sum(weights) for value in weights], repeatRows=1, hAlign="LEFT")
             table.setStyle(TableStyle([
                 ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#eef2f5")),
                 ("GRID", (0, 0), (-1, -1), .4, colors.HexColor("#bcc5cf")),
@@ -96,7 +103,7 @@ def main():
             story.extend([table, Spacer(1, 8)])
             continue
         if line.startswith("## 3 "):
-            story.append(PageBreak())
+            story.append(CondPageBreak(200))
         if line.startswith("# "):
             style, value = title, line[2:]
         elif line.startswith("## "):
