@@ -8,6 +8,12 @@ ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ["类型", "来源", "优先级", "状态", "需求描述", "前置条件", "正常结果", "异常或边界情况", "验收方法", "关联需求"]
 # Explicit placeholders only: 未约定 can also describe an intentional scope boundary.
 UNFINISHED = re.compile(r"(?<!等)待确认|待填写|待访谈|\[|暂无|待补充")
+REVIEW_FIELDS = ["相关需求", "AI 原始内容", "发现的问题", "核对依据", "最终处理", "处理理由"]
+
+
+def review_is_complete(part):
+    return (all(re.search(r"(?m)^- " + field + r"：\S", part) for field in REVIEW_FIELDS)
+            and not re.search(r"(?m)^- [^：\n]+：[\[待]", part))
 
 
 def check():
@@ -70,9 +76,7 @@ def check():
         errors.append("chat.txt 尚未保存首次完整 AI 需求输出")
     review = chat.split("三、人工审查记录", 1)[-1]
     reviews = re.findall(r"(?ms)^## REV-\d{3,}\s*\n(.*?)(?=^## REV-|\Z)", review)
-    complete = [part for part in reviews if all(re.search(r"(?m)^- " + field + r"：\S", part)
-                for field in ["相关需求", "AI 原始内容", "发现的问题", "核对依据", "最终处理", "处理理由"])
-                and not re.search(r"(?m)^- [^\n]+：[\[待]", part)]
+    complete = [part for part in reviews if review_is_complete(part)]
     if len(complete) < 3:
         errors.append(f"实际人工审查记录 {len(complete)}/3")
     print(f"需求总数 {len(blocks)}；已确认 {len(confirmed)}；功能 {functional}；非功能 {nonfunctional}；异常/边界 {exceptions}")

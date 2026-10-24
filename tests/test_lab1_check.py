@@ -18,6 +18,18 @@ class ReadinessTests(unittest.TestCase):
     def test_explicit_scope_boundary_is_not_placeholder(self):
         self.assertIsNone(CHECK.UNFINISHED.search("不规定原材料未约定的角色优先级"))
 
+    def test_review_can_quote_a_pending_requirement(self):
+        review = "\n".join([
+            "- 相关需求：REQ-026",
+            "- AI 原始内容：性能条件明确。状态：待确认。",
+            "- 发现的问题：环境未固定，保留该状态符合原文。",
+            "- 核对依据：INT-02-L014",
+            "- 最终处理：保留",
+            "- 处理理由：不把未确定环境写成普遍承诺。",
+        ])
+        self.assertTrue(CHECK.review_is_complete(review))
+        self.assertFalse(CHECK.review_is_complete(review.replace("- 最终处理：保留", "- 最终处理：[未填写]")))
+
 
 if __name__ == "__main__":
     unittest.main()
