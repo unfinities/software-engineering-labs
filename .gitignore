@@ -1,0 +1,46 @@
+# 原始输入、身份信息与提交包仅留本地
+/private/
+/work/
+/dist/
+/outputs/
+/originals/
+detail.htm
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# 凭据与本机配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*
+secrets*
+*.local
+*.local.*
+id_rsa*
+id_ed25519*
+*.sqlite
+*.sqlite3
+*.db
+
+# 工具产物
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+.DS_Store
+Thumbs.db
+~$*

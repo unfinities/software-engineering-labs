@@ -1,0 +1,9 @@
+#!/bin/sh
+runner=$(git config --get lab.python)
+if [ -n "$runner" ]; then
+  exec "$runner" scripts/scan_public.py --history
+elif command -v py >/dev/null 2>&1; then
+  exec py -3 scripts/scan_public.py --history
+else
+  exec python3 scripts/scan_public.py --history
+fi
