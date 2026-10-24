@@ -1,8 +1,8 @@
 # 校园二手交易系统需求整理
 
-仓库地址：https://github.com/unfinities/software-engineering-labs-2026
+仓库地址：https://github.com/unfinities/software-engineering-lab1-submission-2026
 
-版本：本人审查后最终需求　日期：2026-10-24
+版本：最终版　日期：2026-10-24
 
 依据甲方第一轮书面说明和第二轮七组答复整理。已确认表示有甲方提供材料支持。需求分析工程师已逐项核对下架原子性、联系方式访问和性能边界三项实质内容，决定均予保留，详见chat.txt的REV-001至REV-003。共有27条：22条功能需求、4条非功能需求、1条范围约束；26条已确认，REQ-026因实际测试环境尚未确定保留待确认。待确认项不计入已确认数量。
 

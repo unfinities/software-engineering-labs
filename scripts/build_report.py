@@ -16,7 +16,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, CondPageBreak
 
 ROOT = Path(__file__).resolve().parents[1]
-REPOSITORY = "https://github.com/unfinities/software-engineering-labs-2026"
+REPOSITORY = "https://github.com/unfinities/software-engineering-lab1-submission-2026"
 PLACEHOLDERS = re.compile(r"\[(?:待|实际|仅在)[^\]]*\]|\{\{[^}]+\}\}|当前阶段：访谈前框架|当前两个标签尚未创建")
 
 
