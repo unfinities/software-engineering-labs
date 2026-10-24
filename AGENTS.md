@@ -1,6 +1,9 @@
 # 实验1提交仓库协作约定
 
-- 用户已明确选择另建提交仓库，保留原仓库及标签。本仓库为https://github.com/unfinities/software-engineering-lab1-submission-2026；原仓库为https://github.com/unfinities/software-engineering-labs-2026，不得操作原仓库标签。
+- 2026-10-24用户授权更名：当前仓库为software-engineering-labs；旧项目为software-engineering-labs-2026-outdated且已归档。后续只向当前仓库推送。
+- 更名不改动实验标签、冻结的requirements.md和chat.txt或既有提交包；旧网址已验证会重定向。报告中的历史地址不为更名重写。
+
+- 用户已明确选择另建提交仓库，保留原仓库及标签。本仓库为https://github.com/unfinities/software-engineering-labs；原仓库为https://github.com/unfinities/software-engineering-labs-2026-outdated，不得操作原仓库标签。
 - 保留用户2026-10-24对chat.txt、requirements.md的修改，包括参与人姓名、版本标题和简化说明；只补充必要的当前仓库地址及真实后续过程，不恢复已删除文字。
 
 - 本项目为用户的软件工程课程实验，公开 GitHub 仓库见 README.md。用户已授权此项目的后续更改在检查后提交并同步至同一仓库；不创建定时同步任务。

@@ -1,5 +1,13 @@
 # 提交仓库与版本关系
 
+## 当前仓库名称
+
+- 当前实验仓库：https://github.com/unfinities/software-engineering-labs（原名称software-engineering-lab1-submission-2026）。
+- 已弃用且归档的旧项目：https://github.com/unfinities/software-engineering-labs-2026-outdated（原名称software-engineering-labs-2026）。
+- 用户于2026-10-24要求更名以便区分，两个仓库的实验标签、提交与原包均保留，旧网址继续重定向。以下保留创建提交仓库时的版本关系记录。
+
+## 创建提交仓库时的记录
+
 用户在2026-10-24编辑了chat.txt、requirements.md，要求保留修改。原仓库的lab1-final已经固定，不能将不同文本伪称为匹配原标签；用户因此明确选择“另建提交仓库，保留原仓库及标签”。
 
 原仓库：https://github.com/unfinities/software-engineering-labs-2026

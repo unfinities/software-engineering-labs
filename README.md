@@ -1,12 +1,16 @@
-# 校园二手交易系统 · 实验1提交仓库
+# 校园二手交易系统 · 软件工程实验
 
-提交仓库：https://github.com/unfinities/software-engineering-lab1-submission-2026
+当前仓库：https://github.com/unfinities/software-engineering-labs
+
+旧项目仓库现为[software-engineering-labs-2026-outdated](https://github.com/unfinities/software-engineering-labs-2026-outdated)，已归档停止更新。当前仓库由software-engineering-lab1-submission-2026重命名为software-engineering-labs，后续更新使用当前地址。
+
+实验标签和已固定提交文件均保持原样；历史文件及已有报告中的旧网址仍会重定向到改名后的对应仓库，因此不改写冻结的requirements.md、chat.txt或原提交包。
 
 本仓库用于用户修改后的实验1提交。原项目仓库及其lab1-ai-draft、lab1-final标签全部保留；这里导入相同初稿标签和完整提交历史，完成修订文本后首次创建本仓库自己的lab1-final，未覆盖原标签。版本关系见[提交历史说明](lab1/submission-history.md)。
 
 ## 提交材料
 
-- [requirements.md](requirements.md)：保留用户“最终版”命名，更新当前仓库地址；27条需求正文和编号未改，26条已确认，含功能22条、非功能3条。REQ-026的具体性能环境继续待确认。
+- [requirements.md](requirements.md)：保留用户“最终版”命名及标签创建时的地址（旧地址自动重定向）；27条需求正文和编号未改，26条已确认，含功能22条、非功能3条。REQ-026的具体性能环境继续待确认。
 - [chat.txt](chat.txt)：保留用户编辑的参与人、日期、工具模型和记录说明，补记实际修订过程；原始材料、首次AI输出和三项人工审查仍在。
 - [lab1/report.pdf](lab1/report.pdf)：公开报告，写入本仓库两个完整提交编号；个人版和ZIP在private/，不上传。
 - [lab1/report.md](lab1/report.md)：报告可编辑源文件。
