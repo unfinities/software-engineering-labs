@@ -1,0 +1,69 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 组件图 模块划分及依赖方向
+left to right direction
+actor "访客 / 普通用户 / 管理员" as Actor
+package "展示层" {
+  [Web UI\n账号、商品、预约、后台] as UI
+}
+package "应用层 单体分层应用" {
+  [身份与授权\nM01] as Auth
+  [商品发布与管理\nM02] as Item
+  [商品查询\nM03] as Search
+  [预约与交易\nM04] as Trade
+  [审核与违规管理\nM05] as Mod
+  [统计查询\nM06] as Stats
+  [日志与历史\nM07] as Audit
+  [命令协调器\n鉴权→同次操作校验→事务] as Cmd
+}
+package "数据与基础设施层" {
+  [仓储 / 事务管理] as Repo
+  database "关系数据库\n用户、商品、预约、快照\n私有联系、审核、请求记录\n成功日志 / 可用时的失败日志" as DB
+  [独立失败日志写入器] as Fail
+  artifact "本地故障日志\n限权保存、恢复后补录" as File
+}
+Actor --> UI
+UI --> Auth : 注册 / 登录 / 退出
+UI --> Search : 公开及授权范围查询
+UI --> Stats : 卖家自身 / 管理员全平台
+UI --> Audit : 授权历史 / 管理员日志
+UI --> Cmd : 商品 / 预约 / 审核命令
+Cmd --> Auth : 当前会话与对象归属
+Cmd --> Item
+Cmd --> Trade
+Cmd --> Mod
+Trade --> Item : 校验并改变商品状态
+Mod --> Trade : 有效预约同步终止
+Item --> Repo
+Trade --> Repo
+Mod --> Repo
+Auth --> Repo
+Search --> Repo
+Stats --> Repo
+Audit --> Repo
+Cmd --> Repo : 请求记录与成功日志同事务
+Repo --> DB
+Cmd --> Fail : 业务回滚后独立记录失败
+Fail --> DB : 可用时独立写入
+Fail --> File : 数据库故障时追加
+File ..> Audit : 恢复后按请求标识补录去重
+note bottom of Repo
+  设计选择：关系数据库与模块化单体，便于跨模块原子事务。
+  条件更新 version + 唯一有效预约约束，避免并发双成功。
+  联系方式读取在服务端逐次授权；UI 隐藏不能代替授权。
+end note
+@enduml

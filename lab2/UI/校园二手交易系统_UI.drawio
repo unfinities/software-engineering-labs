@@ -1,0 +1,1868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="draw.io native editable wireframes" version="32.6.1">
+  <diagram id="UI01" name="UI01 注册与登录">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI01_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI01_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI01_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI01_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI01_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_7" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_8" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_9" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_10" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI01_11" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI01_12" value="UI01  访客" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI01_13" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI01_14" value="注册与登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI01_15" value="访客  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI01_16" value="同一普通账号可兼任买卖角色；管理员通过单独的一次性邀请码注册入口。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI01_17" value="关联需求 REQ-001–003、023、025  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI01_18" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="156" width="430" height="208" />
+        </mxCell>
+        <mxCell id="UI01_19" value="在校园，让闲置继续有用" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="172" width="390" height="34" />
+        </mxCell>
+        <mxCell id="UI01_20" value="浏览商品无需登录。预约、发布与管理操作需要当前有效登录。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="214" width="390" height="136" />
+        </mxCell>
+        <mxCell id="UI01_21" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="398" width="430" height="52" />
+        </mxCell>
+        <mxCell id="UI01_22" value="不提供在线支付或即时聊天；所有付款和交接均在线下完成。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="407" width="398" height="34" />
+        </mxCell>
+        <mxCell id="UI01_23" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="704" y="156" width="698" height="580" />
+        </mxCell>
+        <mxCell id="UI01_24" value="登录   |   普通注册   |   管理员注册" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#2563EB;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="184" width="610" height="38" />
+        </mxCell>
+        <mxCell id="UI01_25" value="用户名" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="246" width="620" height="28" />
+        </mxCell>
+        <mxCell id="UI01_26" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="280" width="620" height="44" />
+        </mxCell>
+        <mxCell id="UI01_27" value="请输入用户名" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="756" y="286" width="592" height="34" />
+        </mxCell>
+        <mxCell id="UI01_28" value="密码" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="348" width="620" height="28" />
+        </mxCell>
+        <mxCell id="UI01_29" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="382" width="620" height="44" />
+        </mxCell>
+        <mxCell id="UI01_30" value="••••••••" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="756" y="388" width="592" height="34" />
+        </mxCell>
+        <mxCell id="UI01_31" value="一次性邀请码（仅管理员注册显示）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="450" width="620" height="28" />
+        </mxCell>
+        <mxCell id="UI01_32" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="484" width="620" height="44" />
+        </mxCell>
+        <mxCell id="UI01_33" value="输入邀请码，不在日志中保存原文" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="756" y="490" width="592" height="34" />
+        </mxCell>
+        <mxCell id="UI01_34" value="错误示例：用户名已存在 / 邀请码无效或已使用" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#BE123C;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="742" y="552" width="620" height="34" />
+        </mxCell>
+        <mxCell id="UI01_35" value="登录 / 提交注册" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="742" y="622" width="270" height="42" />
+        </mxCell>
+        <mxCell id="UI01_36" value="以访客身份浏览" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="1032" y="622" width="270" height="42" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI02" name="UI02 商品广场">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI02_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI02_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI02_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI02_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI02_5" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="139" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI02_6" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_7" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_8" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI02_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI02_13" value="UI02  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI02_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI02_15" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI02_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI02_17" value="关键词匹配标题或描述；其他筛选条件同时满足。公开仅展示非违规的四种商品状态。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI02_18" value="关联需求 REQ-010、025、026  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI02_19" value="关键词" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="150" width="350" height="28" />
+        </mxCell>
+        <mxCell id="UI02_20" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="184" width="350" height="44" />
+        </mxCell>
+        <mxCell id="UI02_21" value="搜索标题或描述" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="256" y="190" width="322" height="34" />
+        </mxCell>
+        <mxCell id="UI02_22" value="分类" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="612" y="150" width="190" height="28" />
+        </mxCell>
+        <mxCell id="UI02_23" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="612" y="184" width="190" height="44" />
+        </mxCell>
+        <mxCell id="UI02_24" value="全部分类  ▾" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="626" y="190" width="162" height="34" />
+        </mxCell>
+        <mxCell id="UI02_25" value="价格区间（元，含两端）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="822" y="150" width="320" height="28" />
+        </mxCell>
+        <mxCell id="UI02_26" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="822" y="184" width="320" height="44" />
+        </mxCell>
+        <mxCell id="UI02_27" value="10.00  —  50.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="836" y="190" width="292" height="34" />
+        </mxCell>
+        <mxCell id="UI02_28" value="商品状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1162" y="150" width="240" height="28" />
+        </mxCell>
+        <mxCell id="UI02_29" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1162" y="184" width="240" height="44" />
+        </mxCell>
+        <mxCell id="UI02_30" value="已发布  ▾" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1176" y="190" width="212" height="34" />
+        </mxCell>
+        <mxCell id="UI02_31" value="查询" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="252" width="140" height="42" />
+        </mxCell>
+        <mxCell id="UI02_32" value="重置条件" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="400" y="252" width="140" height="42" />
+        </mxCell>
+        <mxCell id="UI02_33" value="共 36 件 · 每页 20 条" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1130" y="255" width="270" height="34" />
+        </mxCell>
+        <mxCell id="UI02_34" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="324" width="372" height="312" />
+        </mxCell>
+        <mxCell id="UI02_35" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7EDF5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="260" y="342" width="336" height="138" />
+        </mxCell>
+        <mxCell id="UI02_36" value="商品图片" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="260" y="388" width="336" height="42" />
+        </mxCell>
+        <mxCell id="UI02_37" value="工程计算器" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="496" width="330" height="34" />
+        </mxCell>
+        <mxCell id="UI02_38" value="¥35.00   ·   已发布" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#2563EB;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="546" width="330" height="30" />
+        </mxCell>
+        <mxCell id="UI02_39" value="查看详情" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI03">
+          <mxGeometry as="geometry" x="262" y="584" width="332" height="42" />
+        </mxCell>
+        <mxCell id="UI02_40" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="636" y="324" width="372" height="312" />
+        </mxCell>
+        <mxCell id="UI02_41" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7EDF5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="654" y="342" width="336" height="138" />
+        </mxCell>
+        <mxCell id="UI02_42" value="商品图片" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="654" y="388" width="336" height="42" />
+        </mxCell>
+        <mxCell id="UI02_43" value="软件工程教材" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="496" width="330" height="34" />
+        </mxCell>
+        <mxCell id="UI02_44" value="¥28.00   ·   已发布" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#2563EB;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="546" width="330" height="30" />
+        </mxCell>
+        <mxCell id="UI02_45" value="查看详情" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI03">
+          <mxGeometry as="geometry" x="656" y="584" width="332" height="42" />
+        </mxCell>
+        <mxCell id="UI02_46" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1030" y="324" width="372" height="312" />
+        </mxCell>
+        <mxCell id="UI02_47" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7EDF5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1048" y="342" width="336" height="138" />
+        </mxCell>
+        <mxCell id="UI02_48" value="商品图片" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1048" y="388" width="336" height="42" />
+        </mxCell>
+        <mxCell id="UI02_49" value="桌面阅读灯" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="496" width="330" height="34" />
+        </mxCell>
+        <mxCell id="UI02_50" value="¥18.00   ·   已预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#2563EB;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="546" width="330" height="30" />
+        </mxCell>
+        <mxCell id="UI02_51" value="查看详情" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI03">
+          <mxGeometry as="geometry" x="1050" y="584" width="332" height="42" />
+        </mxCell>
+        <mxCell id="UI02_52" value="上一页       1       2       下一页" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="667" width="600" height="38" />
+        </mxCell>
+        <mxCell id="UI02_53" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="730" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI02_54" value="无结果：显示“没有匹配的商品”，保留筛选条件；最低价高于最高价时提示并拒绝查询。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="739" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI03" name="UI03 商品详情与预约">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI03_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI03_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI03_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI03_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI03_5" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="139" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI03_6" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_7" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_8" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI03_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI03_13" value="UI03  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI03_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI03_15" value="商品详情与预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI03_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI03_17" value="可预约状态：已发布、非本人商品、无有效预约；提交时以服务端当前状态为准。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI03_18" value="关联需求 REQ-010、013、017、020–021、025  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI03_19" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="156" width="558" height="540" />
+        </mxCell>
+        <mxCell id="UI03_20" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7EDF5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="264" y="178" width="514" height="250" />
+        </mxCell>
+        <mxCell id="UI03_21" value="工程计算器 · 图片区域" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=25;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="284" y="270" width="474" height="44" />
+        </mxCell>
+        <mxCell id="UI03_22" value="工程计算器" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="452" width="480" height="42" />
+        </mxCell>
+        <mxCell id="UI03_23" value="¥35.00   已发布" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#2563EB;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="508" width="480" height="38" />
+        </mxCell>
+        <mxCell id="UI03_24" value="分类：电子数码   新旧：九成新&#10;交接地点：图书馆门口&#10;描述：按键完整，可正常使用。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="560" width="480" height="106" />
+        </mxCell>
+        <mxCell id="UI03_25" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="830" y="156" width="572" height="540" />
+        </mxCell>
+        <mxCell id="UI03_26" value="预约这件商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="182" width="520" height="42" />
+        </mxCell>
+        <mxCell id="UI03_27" value="预约时保存标题、价格和交接地点快照。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="244" width="520" height="36" />
+        </mxCell>
+        <mxCell id="UI03_28" value="我的联系方式（必填）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="310" width="520" height="28" />
+        </mxCell>
+        <mxCell id="UI03_29" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="344" width="520" height="44" />
+        </mxCell>
+        <mxCell id="UI03_30" value="输入用于本次线下沟通的联系方式" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="350" width="492" height="34" />
+        </mxCell>
+        <mxCell id="UI03_31" value="预约成功后卖家可查看；卖家接受并提供联系后，你才能查看卖家联系方式。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="424" width="520" height="74" />
+        </mxCell>
+        <mxCell id="UI03_32" value="确认预约" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="856" y="530" width="246" height="42" />
+        </mxCell>
+        <mxCell id="UI03_33" value="返回列表" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="1118" y="530" width="258" height="42" />
+        </mxCell>
+        <mxCell id="UI03_34" value="本人商品：隐藏预约入口，显示“这是你的商品”。&#10;已预约 / 待交接 / 已售出：显示状态，不提供预约。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="604" width="520" height="72" />
+        </mxCell>
+        <mxCell id="UI03_35" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="730" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI03_36" value="冲突示例：商品已被他人预约，请刷新。处理中的请求可查询；网络故障可重试同次操作。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="739" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI04" name="UI04 我的商品">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI04_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI04_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI04_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI04_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI04_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_6" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="191" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI04_7" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_8" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI04_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI04_13" value="UI04  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI04_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI04_15" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI04_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI04_17" value="仅展示本人全部商品；按钮随当前状态变化，预约中和待交接商品不能修改。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI04_18" value="关联需求 REQ-004–008、011、022  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI04_19" value="草稿 2   待审核 1   已驳回 1   已发布 3   已预约 1   待交接 1   已售出 5   已下架 1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#2563EB;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="150" width="1160" height="42" />
+        </mxCell>
+        <mxCell id="UI04_20" value="发布新商品" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="1240" y="204" width="162" height="42" />
+        </mxCell>
+        <mxCell id="UI04_21" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="266" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI04_22" value="商品 / 编号" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="271" width="306" height="34" />
+        </mxCell>
+        <mxCell id="UI04_23" value="价格" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="271" width="116" height="34" />
+        </mxCell>
+        <mxCell id="UI04_24" value="状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="271" width="206" height="34" />
+        </mxCell>
+        <mxCell id="UI04_25" value="当前可用操作" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="271" width="436" height="34" />
+        </mxCell>
+        <mxCell id="UI04_26" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="310" width="1160" height="68" />
+        </mxCell>
+        <mxCell id="UI04_27" value="工程计算器 / I-101" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="315" width="306" height="58" />
+        </mxCell>
+        <mxCell id="UI04_28" value="¥35.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="315" width="116" height="58" />
+        </mxCell>
+        <mxCell id="UI04_29" value="已发布" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="315" width="206" height="58" />
+        </mxCell>
+        <mxCell id="UI04_30" value="撤回修改  /  下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="315" width="436" height="58" />
+        </mxCell>
+        <mxCell id="UI04_31" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="378" width="1160" height="68" />
+        </mxCell>
+        <mxCell id="UI04_32" value="阅读灯 / I-102" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="383" width="306" height="58" />
+        </mxCell>
+        <mxCell id="UI04_33" value="¥18.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="383" width="116" height="58" />
+        </mxCell>
+        <mxCell id="UI04_34" value="已预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="383" width="206" height="58" />
+        </mxCell>
+        <mxCell id="UI04_35" value="查看预约  /  下架（必填原因）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="383" width="436" height="58" />
+        </mxCell>
+        <mxCell id="UI04_36" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="446" width="1160" height="68" />
+        </mxCell>
+        <mxCell id="UI04_37" value="耳机 / I-103" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="451" width="306" height="58" />
+        </mxCell>
+        <mxCell id="UI04_38" value="¥50.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="451" width="116" height="58" />
+        </mxCell>
+        <mxCell id="UI04_39" value="待交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="451" width="206" height="58" />
+        </mxCell>
+        <mxCell id="UI04_40" value="查看预约  /  下架（必填原因）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="451" width="436" height="58" />
+        </mxCell>
+        <mxCell id="UI04_41" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="514" width="1160" height="68" />
+        </mxCell>
+        <mxCell id="UI04_42" value="二手教材 / I-104" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="519" width="306" height="58" />
+        </mxCell>
+        <mxCell id="UI04_43" value="¥28.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="519" width="116" height="58" />
+        </mxCell>
+        <mxCell id="UI04_44" value="已售出" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="519" width="206" height="58" />
+        </mxCell>
+        <mxCell id="UI04_45" value="查看历史" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="519" width="436" height="58" />
+        </mxCell>
+        <mxCell id="UI04_46" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="582" width="1160" height="68" />
+        </mxCell>
+        <mxCell id="UI04_47" value="收纳箱 / I-105" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="587" width="306" height="58" />
+        </mxCell>
+        <mxCell id="UI04_48" value="¥12.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="587" width="116" height="58" />
+        </mxCell>
+        <mxCell id="UI04_49" value="已下架 · 违规锁定" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="724" y="587" width="206" height="58" />
+        </mxCell>
+        <mxCell id="UI04_50" value="查看原因；解锁后才可修改" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="954" y="587" width="436" height="58" />
+        </mxCell>
+        <mxCell id="UI04_51" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="712" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI04_52" value="下架有预约商品：填写原因；成功后商品已下架、预约已终止，买家可见原因。保存失败全部不生效。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#1E40AF;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="721" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI05" name="UI05 商品编辑与提交">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI05_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI05_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI05_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI05_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI05_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_7" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="243" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI05_8" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI05_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI05_13" value="UI05  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI05_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI05_15" value="商品编辑与提交" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI05_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI05_17" value="草稿可保存不完整内容；提交审核前完成所有必填项。已发布需撤回，已下架需未锁定才能修改重审。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI05_18" value="关联需求 REQ-004–007、025  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI05_19" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="152" width="1160" height="590" />
+        </mxCell>
+        <mxCell id="UI05_20" value="商品标题 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="178" width="520" height="28" />
+        </mxCell>
+        <mxCell id="UI05_21" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="212" width="520" height="44" />
+        </mxCell>
+        <mxCell id="UI05_22" value="工程计算器" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="284" y="218" width="492" height="34" />
+        </mxCell>
+        <mxCell id="UI05_23" value="分类 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="826" y="178" width="548" height="28" />
+        </mxCell>
+        <mxCell id="UI05_24" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="826" y="212" width="548" height="44" />
+        </mxCell>
+        <mxCell id="UI05_25" value="电子数码  ▾" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="218" width="520" height="34" />
+        </mxCell>
+        <mxCell id="UI05_26" value="新旧程度 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="282" width="520" height="28" />
+        </mxCell>
+        <mxCell id="UI05_27" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="316" width="520" height="44" />
+        </mxCell>
+        <mxCell id="UI05_28" value="九成新  ▾" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="284" y="322" width="492" height="34" />
+        </mxCell>
+        <mxCell id="UI05_29" value="价格（元）*" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="826" y="282" width="548" height="28" />
+        </mxCell>
+        <mxCell id="UI05_30" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="826" y="316" width="548" height="44" />
+        </mxCell>
+        <mxCell id="UI05_31" value="35.00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="322" width="520" height="34" />
+        </mxCell>
+        <mxCell id="UI05_32" value="交接地点 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="386" width="1104" height="28" />
+        </mxCell>
+        <mxCell id="UI05_33" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="420" width="1104" height="44" />
+        </mxCell>
+        <mxCell id="UI05_34" value="图书馆门口" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="284" y="426" width="1076" height="34" />
+        </mxCell>
+        <mxCell id="UI05_35" value="商品描述 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="490" width="1104" height="28" />
+        </mxCell>
+        <mxCell id="UI05_36" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="524" width="1104" height="88" />
+        </mxCell>
+        <mxCell id="UI05_37" value="说明功能、瑕疵、配件等信息" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="284" y="530" width="1076" height="78" />
+        </mxCell>
+        <mxCell id="UI05_38" value="价格须为 0.01～99999.99 元，最多两位小数。每条商品只对应一件物品。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="638" width="1104" height="28" />
+        </mxCell>
+        <mxCell id="UI05_39" value="保存草稿" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="270" y="686" width="190" height="42" />
+        </mxCell>
+        <mxCell id="UI05_40" value="提交审核" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="478" y="686" width="190" height="42" />
+        </mxCell>
+        <mxCell id="UI05_41" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="758" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI05_42" value="非法输入：在字段旁说明原因并保留其他合法输入；已预约、待交接、已售出及锁定商品禁止编辑。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="767" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI06" name="UI06 我的预约与交易历史">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI06_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI06_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI06_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI06_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI06_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_7" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_8" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="295" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI06_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI06_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI06_13" value="UI06  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI06_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI06_15" value="我的预约与交易历史" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI06_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI06_17" value="只查询本人的预约；结束记录保留商品快照、原因、状态和时间，不再展示联系方式。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI06_18" value="关联需求 REQ-003、013、015、017–018  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI06_19" value="全部     等待确认     待交接     已取消     已拒绝     已终止     已完成" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2563EB;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="154" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI06_20" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="220" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI06_21" value="预约 / 商品快照" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="225" width="336" height="34" />
+        </mxCell>
+        <mxCell id="UI06_22" value="预约价 / 地点" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="614" y="225" width="306" height="34" />
+        </mxCell>
+        <mxCell id="UI06_23" value="预约状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="944" y="225" width="156" height="34" />
+        </mxCell>
+        <mxCell id="UI06_24" value="可用操作" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="225" width="266" height="34" />
+        </mxCell>
+        <mxCell id="UI06_25" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="264" width="1160" height="86" />
+        </mxCell>
+        <mxCell id="UI06_26" value="R-201  工程计算器" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="269" width="336" height="76" />
+        </mxCell>
+        <mxCell id="UI06_27" value="¥35.00 / 图书馆门口" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="614" y="269" width="306" height="76" />
+        </mxCell>
+        <mxCell id="UI06_28" value="等待确认" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="944" y="269" width="156" height="76" />
+        </mxCell>
+        <mxCell id="UI06_29" value="查看详情  /  取消预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="269" width="266" height="76" />
+        </mxCell>
+        <mxCell id="UI06_30" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="350" width="1160" height="86" />
+        </mxCell>
+        <mxCell id="UI06_31" value="R-202  阅读灯" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="355" width="336" height="76" />
+        </mxCell>
+        <mxCell id="UI06_32" value="¥18.00 / 学生活动中心" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="614" y="355" width="306" height="76" />
+        </mxCell>
+        <mxCell id="UI06_33" value="待交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="944" y="355" width="156" height="76" />
+        </mxCell>
+        <mxCell id="UI06_34" value="查看联系  /  说明原因后取消" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="355" width="266" height="76" />
+        </mxCell>
+        <mxCell id="UI06_35" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="436" width="1160" height="86" />
+        </mxCell>
+        <mxCell id="UI06_36" value="R-203  二手教材" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="441" width="336" height="76" />
+        </mxCell>
+        <mxCell id="UI06_37" value="¥28.00 / 图书馆门口" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="614" y="441" width="306" height="76" />
+        </mxCell>
+        <mxCell id="UI06_38" value="已完成" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="944" y="441" width="156" height="76" />
+        </mxCell>
+        <mxCell id="UI06_39" value="查看历史（无联系方式）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="441" width="266" height="76" />
+        </mxCell>
+        <mxCell id="UI06_40" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="522" width="1160" height="86" />
+        </mxCell>
+        <mxCell id="UI06_41" value="R-204  收纳箱" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="527" width="336" height="76" />
+        </mxCell>
+        <mxCell id="UI06_42" value="¥12.00 / 宿舍公共区" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="614" y="527" width="306" height="76" />
+        </mxCell>
+        <mxCell id="UI06_43" value="已终止" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="944" y="527" width="156" height="76" />
+        </mxCell>
+        <mxCell id="UI06_44" value="查看终止原因" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="527" width="266" height="76" />
+        </mxCell>
+        <mxCell id="UI06_45" value="查看当前预约" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI08">
+          <mxGeometry as="geometry" x="242" y="650" width="230" height="42" />
+        </mxCell>
+        <mxCell id="UI06_46" value="查看结束历史" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="492" y="650" width="230" height="42" />
+        </mxCell>
+        <mxCell id="UI06_47" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="738" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI06_48" value="等待确认阶段只有买家能取消；待交接阶段双方均可带原因取消；取消后主动重约生成新编号。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#1E40AF;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="747" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI07" name="UI07 处理收到的预约">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI07_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI07_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI07_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI07_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI07_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_7" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_8" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_9" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="347" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI07_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI07_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI07_13" value="UI07  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI07_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI07_15" value="处理收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI07_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI07_17" value="仅商品卖家可处理等待确认预约；接受提供本人联系，拒绝填写原因，二者不能混用。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI07_18" value="关联需求 REQ-014、017、020–022  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI07_19" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="156" width="540" height="204" />
+        </mxCell>
+        <mxCell id="UI07_20" value="预约 R-201 · 等待确认" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="172" width="500" height="34" />
+        </mxCell>
+        <mxCell id="UI07_21" value="商品：工程计算器 / I-101&#10;快照：¥35.00 / 图书馆门口&#10;买家：示例用户 A" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="214" width="500" height="132" />
+        </mxCell>
+        <mxCell id="UI07_22" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="386" width="540" height="200" />
+        </mxCell>
+        <mxCell id="UI07_23" value="买家联系方式" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="402" width="500" height="34" />
+        </mxCell>
+        <mxCell id="UI07_24" value="有效预约中由卖家可见&#10;[私有联系方式显示区域]&#10;不向无关用户或公开页面返回" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="444" width="500" height="128" />
+        </mxCell>
+        <mxCell id="UI07_25" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="814" y="156" width="588" height="530" />
+        </mxCell>
+        <mxCell id="UI07_26" value="接受预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="180" width="536" height="36" />
+        </mxCell>
+        <mxCell id="UI07_27" value="我的联系方式 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="246" width="536" height="28" />
+        </mxCell>
+        <mxCell id="UI07_28" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="280" width="536" height="44" />
+        </mxCell>
+        <mxCell id="UI07_29" value="接受时提供，用于本次线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="286" width="508" height="34" />
+        </mxCell>
+        <mxCell id="UI07_30" value="确认接受" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI08">
+          <mxGeometry as="geometry" x="840" y="356" width="236" height="42" />
+        </mxCell>
+        <mxCell id="UI07_31" value="拒绝预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="430" width="536" height="36" />
+        </mxCell>
+        <mxCell id="UI07_32" value="拒绝原因 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="482" width="536" height="28" />
+        </mxCell>
+        <mxCell id="UI07_33" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="840" y="516" width="536" height="44" />
+        </mxCell>
+        <mxCell id="UI07_34" value="向买家说明无法交易的原因" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="522" width="508" height="34" />
+        </mxCell>
+        <mxCell id="UI07_35" value="确认拒绝" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF1F2;strokeColor=#FECDD3;fontColor=#BE123C;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="840" y="592" width="236" height="42" />
+        </mxCell>
+        <mxCell id="UI07_36" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="738" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI07_37" value="旧页面冲突：预约已取消或商品已下架，请刷新。接受或拒绝失败均不改变商品、预约及成功日志。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="747" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI08" name="UI08 线下交接与完成确认">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI08_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI08_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI08_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI08_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI08_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_7" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_8" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_9" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="347" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI08_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI08_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI08_13" value="UI08  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI08_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI08_15" value="线下交接与完成确认" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI08_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI08_17" value="当前预约待交接，图示卖家视角；买家视角只有取消和查看卖家联系，没有确认完成按钮。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI08_18" value="关联需求 REQ-015–017、020–021、025  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI08_19" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="156" width="490" height="220" />
+        </mxCell>
+        <mxCell id="UI08_20" value="预约 R-202 · 待交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="172" width="450" height="34" />
+        </mxCell>
+        <mxCell id="UI08_21" value="商品快照：阅读灯 / ¥18.00&#10;地点：学生活动中心&#10;买家联系：[私有联系显示区域]" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="214" width="450" height="148" />
+        </mxCell>
+        <mxCell id="UI08_22" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="402" width="490" height="156" />
+        </mxCell>
+        <mxCell id="UI08_23" value="双方线下完成交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="418" width="450" height="34" />
+        </mxCell>
+        <mxCell id="UI08_24" value="系统不提供付款、物流或即时聊天。&#10;此时可按阶段查看对方联系方式。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="460" width="450" height="84" />
+        </mxCell>
+        <mxCell id="UI08_25" value="确认交易完成" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="242" y="598" width="232" height="42" />
+        </mxCell>
+        <mxCell id="UI08_26" value="说明原因并取消" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF1F2;strokeColor=#FECDD3;fontColor=#BE123C;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="496" y="598" width="236" height="42" />
+        </mxCell>
+        <mxCell id="UI08_27" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="764" y="156" width="638" height="270" />
+        </mxCell>
+        <mxCell id="UI08_28" value="完成交易 · 二次确认弹窗" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="178" width="584" height="42" />
+        </mxCell>
+        <mxCell id="UI08_29" value="请确认已经完成线下交接，完成后不可撤销" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#BE123C;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="250" width="584" height="80" />
+        </mxCell>
+        <mxCell id="UI08_30" value="返回，暂不完成" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="354" width="262" height="42" />
+        </mxCell>
+        <mxCell id="UI08_31" value="确认已完成" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="1072" y="354" width="302" height="42" />
+        </mxCell>
+        <mxCell id="UI08_32" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="764" y="454" width="638" height="256" />
+        </mxCell>
+        <mxCell id="UI08_33" value="取消预约 · 原因弹窗" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="474" width="584" height="36" />
+        </mxCell>
+        <mxCell id="UI08_34" value="取消原因 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="532" width="584" height="28" />
+        </mxCell>
+        <mxCell id="UI08_35" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="566" width="584" height="44" />
+        </mxCell>
+        <mxCell id="UI08_36" value="向对方说明原因" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="804" y="572" width="556" height="34" />
+        </mxCell>
+        <mxCell id="UI08_37" value="保留预约" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="640" width="262" height="42" />
+        </mxCell>
+        <mxCell id="UI08_38" value="确认取消" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF1F2;strokeColor=#FECDD3;fontColor=#BE123C;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI09">
+          <mxGeometry as="geometry" x="1072" y="640" width="302" height="42" />
+        </mxCell>
+        <mxCell id="UI08_39" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="748" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI08_40" value="完成与取消竞争时最多一个生效；结束后立即关闭双方联系读取入口，并清除页面缓存。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="757" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI09" name="UI09 已结束预约详情">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI09_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI09_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI09_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI09_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI09_5" value="商品广场" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI02">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_6" value="我的商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI04">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_7" value="发布商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI05">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_8" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="295" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI09_9" value="我的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_10" value="收到的预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI07">
+          <mxGeometry as="geometry" x="30" y="354" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_11" value="成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="406" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI09_12" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI09_13" value="UI09  普通用户" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI09_14" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI09_15" value="已结束预约详情" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI09_16" value="普通用户  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI09_17" value="适用于已取消、已拒绝、已终止、已完成；不提供修改、恢复、申诉、仲裁或退款入口。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI09_18" value="关联需求 REQ-008、015–018、022、027  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI09_19" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="154" width="550" height="216" />
+        </mxCell>
+        <mxCell id="UI09_20" value="预约 R-204 · 已终止" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="170" width="510" height="34" />
+        </mxCell>
+        <mxCell id="UI09_21" value="商品快照：收纳箱&#10;预约价格：¥12.00&#10;交接地点：宿舍公共区" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="212" width="510" height="144" />
+        </mxCell>
+        <mxCell id="UI09_22" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="822" y="154" width="580" height="216" />
+        </mxCell>
+        <mxCell id="UI09_23" value="终止原因" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="842" y="170" width="540" height="34" />
+        </mxCell>
+        <mxCell id="UI09_24" value="卖家下架：暂时无法交接&#10;终止时间：2026-10-28 15:30 北京时间" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="842" y="212" width="540" height="144" />
+        </mxCell>
+        <mxCell id="UI09_25" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="400" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI09_26" value="此预约已结束，双方均不可再查看其中的联系方式。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#1E40AF;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="409" width="1128" height="34" />
+        </mxCell>
+        <mxCell id="UI09_27" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="486" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI09_28" value="时间（北京时间）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="491" width="306" height="34" />
+        </mxCell>
+        <mxCell id="UI09_29" value="操作者角色" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="491" width="186" height="34" />
+        </mxCell>
+        <mxCell id="UI09_30" value="动作" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="794" y="491" width="336" height="34" />
+        </mxCell>
+        <mxCell id="UI09_31" value="结果" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1154" y="491" width="236" height="34" />
+        </mxCell>
+        <mxCell id="UI09_32" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="530" width="1160" height="70" />
+        </mxCell>
+        <mxCell id="UI09_33" value="2026-10-28 14:00" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="535" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI09_34" value="买家" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="535" width="186" height="60" />
+        </mxCell>
+        <mxCell id="UI09_35" value="发起预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="794" y="535" width="336" height="60" />
+        </mxCell>
+        <mxCell id="UI09_36" value="等待确认" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1154" y="535" width="236" height="60" />
+        </mxCell>
+        <mxCell id="UI09_37" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="600" width="1160" height="70" />
+        </mxCell>
+        <mxCell id="UI09_38" value="2026-10-28 15:30" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="605" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI09_39" value="卖家" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="584" y="605" width="186" height="60" />
+        </mxCell>
+        <mxCell id="UI09_40" value="说明原因并下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="794" y="605" width="336" height="60" />
+        </mxCell>
+        <mxCell id="UI09_41" value="预约已终止，商品已下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1154" y="605" width="236" height="60" />
+        </mxCell>
+        <mxCell id="UI09_42" value="返回预约列表" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1" link="data:page/id,UI06">
+          <mxGeometry as="geometry" x="242" y="714" width="230" height="42" />
+        </mxCell>
+        <mxCell id="UI09_43" value="已完成时显示成交时间与预约价；误确认或争议由双方线下解决，系统仅保留历史。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="500" y="708" width="902" height="60" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI10" name="UI10 商品审核">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI10_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI10_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI10_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI10_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI10_5" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="139" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI10_6" value="待审核商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI10">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI10_7" value="违规管理" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI11">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI10_8" value="平台统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI10_9" value="操作日志" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI13">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI10_10" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI10_11" value="UI10  管理员" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI10_12" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI10_13" value="商品审核" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI10_14" value="管理员  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI10_15" value="只审核当前待审核商品；通过后发布，驳回必须有原因。普通用户不能进入或调用该操作。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI10_16" value="关联需求 REQ-003、005–006、018、021  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI10_17" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="154" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI10_18" value="编号 / 卖家" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="159" width="276" height="34" />
+        </mxCell>
+        <mxCell id="UI10_19" value="商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="554" y="159" width="306" height="34" />
+        </mxCell>
+        <mxCell id="UI10_20" value="提交时间" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="884" y="159" width="306" height="34" />
+        </mxCell>
+        <mxCell id="UI10_21" value="状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1214" y="159" width="176" height="34" />
+        </mxCell>
+        <mxCell id="UI10_22" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="198" width="1160" height="70" />
+        </mxCell>
+        <mxCell id="UI10_23" value="I-301 / 示例卖家" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="203" width="276" height="60" />
+        </mxCell>
+        <mxCell id="UI10_24" value="工程计算器" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="554" y="203" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI10_25" value="2026-10-28 10:20" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="884" y="203" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI10_26" value="待审核" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1214" y="203" width="176" height="60" />
+        </mxCell>
+        <mxCell id="UI10_27" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="268" width="1160" height="70" />
+        </mxCell>
+        <mxCell id="UI10_28" value="I-302 / 示例卖家" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="273" width="276" height="60" />
+        </mxCell>
+        <mxCell id="UI10_29" value="软件工程教材" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="554" y="273" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI10_30" value="2026-10-28 11:05" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="884" y="273" width="306" height="60" />
+        </mxCell>
+        <mxCell id="UI10_31" value="待审核" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1214" y="273" width="176" height="60" />
+        </mxCell>
+        <mxCell id="UI10_32" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="372" width="1160" height="352" />
+        </mxCell>
+        <mxCell id="UI10_33" value="选中商品 I-301 · 内容核查" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="266" y="392" width="1110" height="36" />
+        </mxCell>
+        <mxCell id="UI10_34" value="标题、分类、描述、新旧程度、价格、交接地点及图片在详情中完整展示。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="266" y="444" width="1110" height="40" />
+        </mxCell>
+        <mxCell id="UI10_35" value="驳回原因（驳回时必填）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="266" y="508" width="1110" height="28" />
+        </mxCell>
+        <mxCell id="UI10_36" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="266" y="542" width="1110" height="44" />
+        </mxCell>
+        <mxCell id="UI10_37" value="说明需要修改的内容" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="280" y="548" width="1082" height="34" />
+        </mxCell>
+        <mxCell id="UI10_38" value="审核通过并发布" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="266" y="642" width="270" height="42" />
+        </mxCell>
+        <mxCell id="UI10_39" value="填写原因并驳回" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF1F2;strokeColor=#FECDD3;fontColor=#BE123C;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="554" y="642" width="270" height="42" />
+        </mxCell>
+        <mxCell id="UI10_40" value="查看处理历史" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#0F172A;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="842" y="642" width="270" height="42" />
+        </mxCell>
+        <mxCell id="UI10_41" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="754" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI10_42" value="旧页面重复审核：提示当前状态已变化，不覆盖新结论；成功结论、原因和日志同步保存。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="763" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI11" name="UI11 违规处理与锁定">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI11_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI11_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI11_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI11_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI11_5" value="待审核商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI10">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI11_6" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="191" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI11_7" value="违规管理" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI11">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI11_8" value="平台统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI11_9" value="操作日志" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI13">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI11_10" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI11_11" value="UI11  管理员" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI11_12" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI11_13" value="违规处理与锁定" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI11_14" value="管理员  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI11_15" value="违规下架并锁定；解除锁定只允许卖家修改重审。已售出商品仅追加违规历史。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI11_16" value="关联需求 REQ-003、007–009、017–018、022  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI11_17" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="154" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI11_18" value="商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="159" width="286" height="34" />
+        </mxCell>
+        <mxCell id="UI11_19" value="当前状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="159" width="216" height="34" />
+        </mxCell>
+        <mxCell id="UI11_20" value="处理范围" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="804" y="159" width="356" height="34" />
+        </mxCell>
+        <mxCell id="UI11_21" value="可用操作" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1184" y="159" width="206" height="34" />
+        </mxCell>
+        <mxCell id="UI11_22" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="198" width="1160" height="72" />
+        </mxCell>
+        <mxCell id="UI11_23" value="I-401  阅读灯" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="203" width="286" height="62" />
+        </mxCell>
+        <mxCell id="UI11_24" value="已预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="203" width="216" height="62" />
+        </mxCell>
+        <mxCell id="UI11_25" value="下架、锁定，终止有效预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="804" y="203" width="356" height="62" />
+        </mxCell>
+        <mxCell id="UI11_26" value="下架并锁定" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1184" y="203" width="206" height="62" />
+        </mxCell>
+        <mxCell id="UI11_27" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="270" width="1160" height="72" />
+        </mxCell>
+        <mxCell id="UI11_28" value="I-402  耳机" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="275" width="286" height="62" />
+        </mxCell>
+        <mxCell id="UI11_29" value="已售出" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="275" width="216" height="62" />
+        </mxCell>
+        <mxCell id="UI11_30" value="仅追加违规记录，不回退" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="804" y="275" width="356" height="62" />
+        </mxCell>
+        <mxCell id="UI11_31" value="追加违规记录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1184" y="275" width="206" height="62" />
+        </mxCell>
+        <mxCell id="UI11_32" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="342" width="1160" height="72" />
+        </mxCell>
+        <mxCell id="UI11_33" value="I-403  收纳箱" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="347" width="286" height="62" />
+        </mxCell>
+        <mxCell id="UI11_34" value="已下架 · 已锁定" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="347" width="216" height="62" />
+        </mxCell>
+        <mxCell id="UI11_35" value="解除锁定后仍为已下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="804" y="347" width="356" height="62" />
+        </mxCell>
+        <mxCell id="UI11_36" value="解除锁定" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1184" y="347" width="206" height="62" />
+        </mxCell>
+        <mxCell id="UI11_37" value="违规 / 解锁原因 *" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="452" width="720" height="28" />
+        </mxCell>
+        <mxCell id="UI11_38" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="486" width="720" height="44" />
+        </mxCell>
+        <mxCell id="UI11_39" value="填写原因，操作和历史不可删除" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="256" y="492" width="692" height="34" />
+        </mxCell>
+        <mxCell id="UI11_40" value="提交对应处理" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF1F2;strokeColor=#FECDD3;fontColor=#BE123C;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="984" y="486" width="418" height="42" />
+        </mxCell>
+        <mxCell id="UI11_41" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="588" width="720" height="148" />
+        </mxCell>
+        <mxCell id="UI11_42" value="处理结果" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="604" width="680" height="34" />
+        </mxCell>
+        <mxCell id="UI11_43" value="有有效预约时：商品下架、预约终止、处理记录及成功日志整体保存；买家历史可查终止原因。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="646" width="680" height="76" />
+        </mxCell>
+        <mxCell id="UI11_44" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="984" y="588" width="418" height="148" />
+        </mxCell>
+        <mxCell id="UI11_45" value="私有预约核查（仅管理员）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1004" y="604" width="378" height="34" />
+        </mxCell>
+        <mxCell id="UI11_46" value="管理需要时可查看私有联系。&#10;独立授权入口，不写入公开列表或操作日志。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1004" y="646" width="378" height="76" />
+        </mxCell>
+        <mxCell id="UI11_47" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="758" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI11_48" value="已售出商品没有下架、解锁上架或纠错入口；违规记录只追加，成交事实不改变。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="767" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI12" name="UI12 商品与成交统计">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI12_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI12_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI12_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI12_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI12_5" value="待审核商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI10">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI12_6" value="违规管理" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI11">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI12_7" value="平台统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI12_8" value="操作日志" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI13">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI12_9" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI12_10" value="UI12  管理员" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI12_11" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI12_12" value="商品与成交统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI12_13" value="管理员  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI12_14" value="同一页面按角色限制范围：卖家只能看自己；管理员可看全平台。以下均为示例数据。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI12_15" value="关联需求 REQ-003、011–012、026  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI12_16" value="统计范围" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="148" width="460" height="28" />
+        </mxCell>
+        <mxCell id="UI12_17" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="182" width="460" height="44" />
+        </mxCell>
+        <mxCell id="UI12_18" value="全平台（卖家视角固定为本人）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="256" y="188" width="432" height="34" />
+        </mxCell>
+        <mxCell id="UI12_19" value="开始日期（北京时间）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="722" y="148" width="250" height="28" />
+        </mxCell>
+        <mxCell id="UI12_20" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="722" y="182" width="250" height="44" />
+        </mxCell>
+        <mxCell id="UI12_21" value="2026-10-01" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="736" y="188" width="222" height="34" />
+        </mxCell>
+        <mxCell id="UI12_22" value="结束日期（含当天）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="992" y="148" width="250" height="28" />
+        </mxCell>
+        <mxCell id="UI12_23" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="992" y="182" width="250" height="44" />
+        </mxCell>
+        <mxCell id="UI12_24" value="2026-10-28" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1006" y="188" width="222" height="34" />
+        </mxCell>
+        <mxCell id="UI12_25" value="统计" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="182" width="142" height="42" />
+        </mxCell>
+        <mxCell id="UI12_26" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="274" width="360" height="132" />
+        </mxCell>
+        <mxCell id="UI12_27" value="已完成成交笔数" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="290" width="320" height="34" />
+        </mxCell>
+        <mxCell id="UI12_28" value="24 笔" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="262" y="332" width="320" height="60" />
+        </mxCell>
+        <mxCell id="UI12_29" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="636" y="274" width="372" height="132" />
+        </mxCell>
+        <mxCell id="UI12_30" value="成交金额" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="290" width="332" height="34" />
+        </mxCell>
+        <mxCell id="UI12_31" value="¥812.00 · 按预约快照价" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="332" width="332" height="60" />
+        </mxCell>
+        <mxCell id="UI12_32" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1042" y="274" width="360" height="132" />
+        </mxCell>
+        <mxCell id="UI12_33" value="统计时间口径" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1062" y="290" width="320" height="34" />
+        </mxCell>
+        <mxCell id="UI12_34" value="完成时间，不按预约创建时间" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1062" y="332" width="320" height="60" />
+        </mxCell>
+        <mxCell id="UI12_35" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="450" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI12_36" value="草稿" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_37" value="待审核" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="399" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_38" value="已驳回" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="544" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_39" value="已发布" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="689" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_40" value="已预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="834" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_41" value="待交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="979" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_42" value="已售出" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_43" value="已下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1269" y="455" width="121" height="34" />
+        </mxCell>
+        <mxCell id="UI12_44" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="494" width="1160" height="86" />
+        </mxCell>
+        <mxCell id="UI12_45" value="8" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_46" value="3" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="399" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_47" value="2" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="544" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_48" value="36" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="689" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_49" value="6" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="834" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_50" value="4" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="979" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_51" value="24" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1124" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_52" value="5" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1269" y="499" width="121" height="76" />
+        </mxCell>
+        <mxCell id="UI12_53" value="范围：2026-10-01 00:00 ≤ 实际完成时间 &lt; 2026-10-29 00:00（北京时间）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="628" width="1160" height="54" />
+        </mxCell>
+        <mxCell id="UI12_54" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="720" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI12_55" value="取消、拒绝和终止不计成交。零数据状态显示 0；开始日期晚于结束日期时提示修改。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#1E40AF;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="729" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UI13" name="UI13 成功与失败操作日志">
+    <mxGraphModel dx="1440" dy="860" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="860" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI13_1" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F5F7FB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1440" height="860" />
+        </mxCell>
+        <mxCell id="UI13_2" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="210" height="860" />
+        </mxCell>
+        <mxCell id="UI13_3" value="校园二手集" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="26" width="170" height="34" />
+        </mxCell>
+        <mxCell id="UI13_4" value="闲置流转 · 线下交接" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="68" width="170" height="24" />
+        </mxCell>
+        <mxCell id="UI13_5" value="待审核商品" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI10">
+          <mxGeometry as="geometry" x="30" y="146" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI13_6" value="违规管理" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI11">
+          <mxGeometry as="geometry" x="30" y="198" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI13_7" value="平台统计" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI12">
+          <mxGeometry as="geometry" x="30" y="250" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI13_8" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16" y="295" width="178" height="42" />
+        </mxCell>
+        <mxCell id="UI13_9" value="操作日志" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fontStyle=1;spacing=0;" vertex="1" parent="1" link="data:page/id,UI13">
+          <mxGeometry as="geometry" x="30" y="302" width="152" height="30" />
+        </mxCell>
+        <mxCell id="UI13_10" value="设计原型 / 示例数据" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#94A3B8;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="758" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI13_11" value="UI13  管理员" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#CBD5E1;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="794" width="170" height="26" />
+        </mxCell>
+        <mxCell id="UI13_12" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="0" width="1230" height="80" />
+        </mxCell>
+        <mxCell id="UI13_13" value="成功与失败操作日志" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=24;fontColor=#0F172A;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="24" width="860" height="34" />
+        </mxCell>
+        <mxCell id="UI13_14" value="管理员  |  退出登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1" link="data:page/id,UI01">
+          <mxGeometry as="geometry" x="1180" y="28" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI13_15" value="只读查询；失败日志独立留存，数据库故障可先本地记录，恢复后可查询。日志无敏感原文。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="94" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI13_16" value="关联需求 REQ-003、018–020、023–024  ·  中保真静态界面，交互见报告说明" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=12;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="824" width="1170" height="24" />
+        </mxCell>
+        <mxCell id="UI13_17" value="操作者 / 对象" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="148" width="340" height="28" />
+        </mxCell>
+        <mxCell id="UI13_18" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="182" width="340" height="44" />
+        </mxCell>
+        <mxCell id="UI13_19" value="全部操作者 / 输入对象编号" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="256" y="188" width="312" height="34" />
+        </mxCell>
+        <mxCell id="UI13_20" value="操作类型" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="602" y="148" width="220" height="28" />
+        </mxCell>
+        <mxCell id="UI13_21" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="602" y="182" width="220" height="44" />
+        </mxCell>
+        <mxCell id="UI13_22" value="全部操作  ▾" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="616" y="188" width="192" height="34" />
+        </mxCell>
+        <mxCell id="UI13_23" value="时间范围（北京时间）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="842" y="148" width="360" height="28" />
+        </mxCell>
+        <mxCell id="UI13_24" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="842" y="182" width="360" height="44" />
+        </mxCell>
+        <mxCell id="UI13_25" value="2026-10-01 至 2026-10-28" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#475569;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="856" y="188" width="332" height="34" />
+        </mxCell>
+        <mxCell id="UI13_26" value="查询" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2563EB;strokeColor=#2563EB;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1222" y="182" width="180" height="42" />
+        </mxCell>
+        <mxCell id="UI13_27" value="全部日志     成功     失败     已恢复故障记录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#2563EB;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="266" width="1160" height="40" />
+        </mxCell>
+        <mxCell id="UI13_28" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF2F8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="330" width="1160" height="44" />
+        </mxCell>
+        <mxCell id="UI13_29" value="时间 / 请求标识" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="335" width="286" height="34" />
+        </mxCell>
+        <mxCell id="UI13_30" value="操作者 / 对象" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="335" width="266" height="34" />
+        </mxCell>
+        <mxCell id="UI13_31" value="动作 / 状态" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="335" width="256" height="34" />
+        </mxCell>
+        <mxCell id="UI13_32" value="结果或失败原因" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#64748B;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1134" y="335" width="256" height="34" />
+        </mxCell>
+        <mxCell id="UI13_33" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="374" width="1160" height="76" />
+        </mxCell>
+        <mxCell id="UI13_34" value="10-28 15:30 / Q-501" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="379" width="286" height="66" />
+        </mxCell>
+        <mxCell id="UI13_35" value="示例用户 / I-401" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="379" width="266" height="66" />
+        </mxCell>
+        <mxCell id="UI13_36" value="下架：已预约→已下架" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="379" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_37" value="成功；预约同步终止" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1134" y="379" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_38" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="450" width="1160" height="76" />
+        </mxCell>
+        <mxCell id="UI13_39" value="10-28 15:31 / Q-502" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="455" width="286" height="66" />
+        </mxCell>
+        <mxCell id="UI13_40" value="未登录 / I-101" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="455" width="266" height="66" />
+        </mxCell>
+        <mxCell id="UI13_41" value="预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="455" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_42" value="越权：未登录" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1134" y="455" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_43" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="526" width="1160" height="76" />
+        </mxCell>
+        <mxCell id="UI13_44" value="10-28 15:32 / Q-503" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="531" width="286" height="66" />
+        </mxCell>
+        <mxCell id="UI13_45" value="示例用户 / I-101" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="531" width="266" height="66" />
+        </mxCell>
+        <mxCell id="UI13_46" value="预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="531" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_47" value="冲突：已被预约" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1134" y="531" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_48" value="" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#E2E8F0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="602" width="1160" height="76" />
+        </mxCell>
+        <mxCell id="UI13_49" value="10-28 15:33 / Q-504" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254" y="607" width="286" height="66" />
+        </mxCell>
+        <mxCell id="UI13_50" value="示例用户 / R-202" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="564" y="607" width="266" height="66" />
+        </mxCell>
+        <mxCell id="UI13_51" value="完成" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="854" y="607" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_52" value="保存失败；已回滚（恢复记录）" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#0F172A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1134" y="607" width="256" height="66" />
+        </mxCell>
+        <mxCell id="UI13_53" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF7ED;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="242" y="730" width="1160" height="52" />
+        </mxCell>
+        <mxCell id="UI13_54" value="不记录密码、联系方式、邀请码原文或完整请求。匿名失败不虚构用户；日志无修改、删除和敏感回放入口。" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#9A3412;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="258" y="739" width="1128" height="34" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

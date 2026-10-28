@@ -1,0 +1,109 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 类图 领域对象及核心约束
+hide empty members
+class "用户 User" as User {
+  - id: UUID
+  - username: String {unique}
+  - passwordHash: String
+  - roles: Set<Role>
+  + canActOn(object): Boolean
+}
+class "商品 Item" as Item {
+  - id: UUID
+  - sellerId: UUID
+  - title, category, description: String
+  - condition, location: String
+  - priceFen: Long
+  - status: ItemStatus
+  - violationLocked: Boolean
+  - version: Long
+  + submit() / withdraw()
+  + revise() / takeDown(reason)
+}
+class "预约 Reservation" as Res {
+  - id, itemId, buyerId: UUID
+  - status: ReservationStatus
+  - titleSnapshot, locationSnapshot: String
+  - priceSnapshotFen: Long
+  - endReason: String?
+  - completedAt: Instant?
+  + accept() / reject(reason)
+  + cancel(reason) / complete()
+}
+class "私有联系方式 ContactData" as Contact {
+  - reservationId: UUID {unique}
+  - buyerContact: EncryptedString
+  - sellerContact: EncryptedString?
+  + visibleTo(actor, currentState)
+}
+class "审核及违规记录 Moderation" as Mod {
+  - id, itemId, adminId: UUID
+  - kind: REVIEW / VIOLATION / UNLOCK
+  - decision, reason: String
+  - createdAt: Instant
+}
+class "操作日志 OperationLog" as Log {
+  - id, requestId: UUID
+  - actorId: UUID?
+  - objectId: UUID?
+  - action, result, failureType: String
+  - beforeState, afterState, reason: String?
+  - createdAt: Instant
+}
+class "请求记录 CommandReceipt" as Receipt {
+  - actorId, requestId: UUID {unique pair}
+  - operation, objectId, payloadDigest: String
+  - status: PROCESSING / SUCCEEDED
+  - resultRef: UUID?
+  + verifySameCommand()
+}
+class "管理员邀请码 AdminInvite" as Invite {
+  - id: UUID
+  - codeHash: String
+  - consumedAt: Instant?
+  + consumeOnce()
+}
+User "1 卖家" -- "0..*" Item : 发布
+User "1 买家" -- "0..*" Res : 发起
+Item "1" -- "0..* 历史" Res : 对应
+Res "1" *-- "1" Contact : 私有数据
+Item "1" -- "0..*" Mod : 处理历史
+User "1 管理员" -- "0..*" Mod : 执行
+User "0..1" -- "0..*" Log : 操作者可匿名
+User "1" -- "0..*" Receipt : 同次操作标识
+User "0..1 消耗者" -- "0..1" Invite : 管理注册
+Item -[hidden]right- Res
+Mod -[hidden]right- Log
+note bottom of Item
+  商品八态；价格 1～9999999 分。
+  普通账号可同时买卖，无买家/卖家子类。
+end note
+note bottom of Res
+  每件商品最多一条有效预约。
+  等待确认↔商品已预约；待交接↔商品待交接。
+  结束记录不复用；成交使用预约快照价。
+end note
+note bottom of Log
+  成功日志在业务事务内；失败日志事务外。
+  不含密码、联系方式、邀请码及完整请求。
+end note
+note bottom of Receipt
+  重发先验证当前登录和对象权限。
+  仅保存结果引用，读取时重新裁剪私有字段。
+end note
+@enduml

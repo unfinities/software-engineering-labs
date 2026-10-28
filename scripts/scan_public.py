@@ -11,7 +11,8 @@ DENIED_DIRS = {"private", "originals", "dist", "work", "node_modules", ".venv"}
 DENIED_SUFFIXES = {".zip", ".7z", ".rar", ".gz", ".tar", ".htm", ".pem", ".key",
                    ".p12", ".pfx", ".db", ".sqlite", ".sqlite3", ".wav", ".mp3", ".m4a", ".mp4"}
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".yml", ".yaml", ".toml", ".json", ".csv",
-                 ".js", ".ts", ".tsx", ".jsx", ".css", ".html", ".sh", ".ps1", ".xml"}
+                 ".js", ".ts", ".tsx", ".jsx", ".css", ".html", ".sh", ".ps1", ".xml",
+                 ".puml", ".drawio", ".svg"}
 RULES = {
     "github-token": re.compile(r"\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})\b"),
     "api-secret-token": re.compile(r"\bsk-(?:proj-|svcacct-)?[A-Za-z0-9_-]{20,}\b"),

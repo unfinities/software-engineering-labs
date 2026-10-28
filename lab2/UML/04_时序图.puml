@@ -1,0 +1,72 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 时序图 发起预约时的鉴权 并发 重发与故障处理
+autonumber
+actor 买家 as Buyer
+boundary "预约界面" as UI
+control "命令协调器" as C
+control "授权与预约服务" as S
+database "事务数据库" as DB
+control "独立失败日志写入器" as Fail
+Buyer -> UI : 填写本人联系并提交预约
+UI -> C : reserve(itemId, contact, requestId)
+C -> S : 校验当前登录、角色、对象访问权限
+alt 未登录 / 当前无权
+  S --> C : 拒绝
+  C -> Fail : 失败类型、请求标识、可知身份；无敏感原文
+  C --> UI : 说明原因，不返回历史受保护结果
+else 当前身份权限通过
+  C -> DB : 读取 actorId + requestId 的命令记录
+  alt 同一请求已成功
+    DB --> C : 原结果引用
+    C -> S : 按当前状态重新授权并裁剪结果
+    S --> C : 可见结果；已结束预约无双方联系
+    C --> UI : 原业务结果，不新增成功日志
+  else 相同请求仍处理中
+    C --> UI : 处理中，允许查询或重试
+  else 新请求 / 临时故障且无业务更新的重试
+    group 单个数据库事务
+      C -> DB : BEGIN；争取唯一命令处理权
+      C -> S : 重检当前状态、非本人商品、必填联系
+      S -> DB : 条件更新 Item\nWHERE status=已发布 AND version=预期版本
+      alt 输入非法 / 状态冲突 / 竞争失败
+        C -> DB : ROLLBACK
+      else 允许创建
+        S -> DB : 创建等待确认预约、商品快照、私有联系
+        C -> DB : 写入成功日志、请求结果引用
+        alt 任一步保存失败
+          C -> DB : ROLLBACK
+        else 全部保存成功
+          C -> DB : COMMIT
+        end
+      end
+    end
+    alt 事务成功
+      C -> S : 组装买家可见结果；不返回卖家联系
+      S --> C : 预约编号、等待确认及快照
+      C --> UI : 预约成功
+    else 事务失败
+      C -> Fail : 事务外写失败；DB故障则本地留痕
+      C --> UI : 返回原因；临时故障允许重试同次请求
+    end
+  end
+end
+note over C, DB
+唯一命令记录约束阻止同次并发重执；唯一有效预约约束阻止多人抢占。
+临时失败不保留成功回执；业务拒绝修正后新提交使用新请求标识。
+end note
+@enduml
