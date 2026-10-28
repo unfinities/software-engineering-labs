@@ -1,5 +1,7 @@
 # 实验1提交仓库协作约定
 
+- 2026-10-28本人直接修改了实验2 Word：以private/lab2/实验报告.docx为个人报告编辑源，保留其字节和版式；不要运行早期生成器覆盖本人修改。lab2/report.md为匿名内容镜像，人工报告修订见human-review.md R2-04和report-revision.md。PDF从当前Word只读转换，ZIP更新前备份旧包；不更改已有标签。
+
 - 当前新增实验2（2026-10-28）：lab2/保留四种PlantUML图及14页draw.io原稿、PNG、报告源码；个人Word/PDF/ZIP在private/lab2及private/submission。实验1文件、标签及已提交包不改动。
 - lab2-ai-draft固定AI初稿；本人已于2026-10-28对关键业务边界、UI14页内取消原因和模块化单体方案给出保留意见，见lab2/human-review.md。真实结果为三项均保留，不伪造人工改图或直接声称已经有人工修改；后续本人修改独立提交。
 - 实验2公开PNG只允许lab2/UML与lab2/UI目录，需检查画面并移除所有元数据；源文件同步扫描。学号、个人报告、打包ZIP仍不得上传公开仓库。

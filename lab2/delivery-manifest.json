@@ -40,7 +40,14 @@
     "UML/03_状态图.png": "6a0a554a9b6b1c8e29f81cf12a86bd95769359b3122623055454f44e9a312a0c",
     "UML/03_状态图.puml": "335fcd4a5948382c908a2d4a12f93f2002c626b3d8487c57cd9cae09689879f7",
     "UML/04_时序图.png": "8b74b1172ca9b073a261c5de51a2b9f0d5bccb7cf0b7816e812fab1f42361dbb",
-    "UML/04_时序图.puml": "a060f09523e3982b9b90f5f8e890f91e405dfc68ab20fede599939e08534d183"
+    "UML/04_时序图.puml": "a060f09523e3982b9b90f5f8e890f91e405dfc68ab20fede599939e08534d183",
+    "report.md": "95c4a148fcb36c6a543044b467610880445352975d24f0f0cbef947991414ce2"
   },
-  "hash_convention": "PNG raw bytes; text source UTF-8 bytes with LF newlines."
+  "hash_convention": "PNG raw bytes; text source UTF-8 bytes with LF newlines.",
+  "report_revision": {
+    "date": "2026-10-28",
+    "source": "User-edited local Word; anonymised text mirror is report.md.",
+    "changes": "See report-revision.md and human-review.md R2-04.",
+    "diagram_pixel_changes": false
+  }
 }

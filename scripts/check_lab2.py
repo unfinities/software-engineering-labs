@@ -35,6 +35,6 @@ assert set(range(1,23))<=covered
 manifest=json.loads((ROOT/'delivery-manifest.json').read_text('utf-8'))
 for filename,expected in manifest['files'].items():
     b=(ROOT/filename).read_bytes()
-    if Path(filename).suffix in {'.puml','.drawio'}:b=b.replace(b'\r\n',b'\n')
+    if Path(filename).suffix in {'.puml','.drawio','.md'}:b=b.replace(b'\r\n',b'\n')
     assert hashlib.sha256(b).hexdigest()==expected,filename
 print('Lab2: four UML types, fourteen editable UI pages, seven modules covering all 22 functional requirements; artifact hashes verified.')

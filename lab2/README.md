@@ -19,3 +19,8 @@ python scripts/check_lab2.py
 ```
 
 依次使用1～14作为page-index导出所有UI。建议PLANTUML_LIMIT_SIZE=12000以防大图截边；公开图片应去除元数据后再提交。只下载官方工具，不把工具二进制或凭据纳入Git。
+
+
+## 当前报告版本
+
+本人已直接修改Word报告；当前匿名报告镜像已同步，具体变化见[报告人工修订说明](report-revision.md)及human-review.md的R2-04。个人Word是编辑源，保留本人排版；不要用早期生成器覆盖它。后续生成PDF与ZIP以该Word为准。
