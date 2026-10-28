@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "repository": "https://github.com/unfinities/software-engineering-labs",
+  "requirements_base": "6bd983d432468305da23e1d370a0c0846316c302",
+  "lab2_ai_draft": "034610237b0c34acff6a9861afeee32a2fc4154a",
+  "ai_refinement_commit": "dbe38a07f09477169ca07ca657ad6a3d53402aaf",
+  "review": "Three actual user decisions retained; see human-review.md. No human diagram edits claimed.",
+  "tools": {
+    "PlantUML": "1.2026.9",
+    "draw.io Desktop": "32.6.1",
+    "AI": "GPT 6.1 Sol (user confirmed)"
+  },
+  "uml_types": [
+    "class",
+    "component",
+    "state",
+    "sequence"
+  ],
+  "ui_pages": 14,
+  "files": {
+    "UI/UI01.png": "f686d906832ab16d99954fe8dc2ffb26776b214955dd9e76bee7db5935c94942",
+    "UI/UI02.png": "d6f795636d0f568aabb016a403c82cbc8e66c91b068bfba573653076fa9c6142",
+    "UI/UI03.png": "7c2bb89a7e53df0760ad10a5bc3979af44f5cc53f0f264a5f678333e31fcbf9c",
+    "UI/UI04.png": "d6959f5468c5e41c3bf5e4f829fe338af25148a4d5ef874f1dad6d5b9478a6d4",
+    "UI/UI05.png": "545ddbaf240f29ddb55471c973490e97fa8f61ed5230ffaa19fc23835c8392bd",
+    "UI/UI06.png": "d005cf9654cd731218b753618185c8089ee15e2d06b0f434d71a5f601dffca5f",
+    "UI/UI07.png": "01fa7f0e565aa3820edcb8594437aae0e283e29e67dd00423ced194cb743ed7a",
+    "UI/UI08.png": "b8df09835e3ff2888560dc94b25a01bd29b56575510e46077ab377cda7649519",
+    "UI/UI09.png": "ddfa4c0cbb9d1b2fd418573644eeac7c129cd0fb1c52e24a7b686f26e9d44410",
+    "UI/UI10.png": "c3782b1858967ab321eead221edeb8643bd95574eb707b8c52cd297629788fd2",
+    "UI/UI11.png": "71660190276368fd2ad8fa31da678fa688f05c2e2275e9951ca65f99a20710eb",
+    "UI/UI12.png": "92eb8ccdb897b86253ccc6410de161a91ced9bf5a9a2523ee2159830e4d6fad7",
+    "UI/UI13.png": "2075a7e6f4ece110879bebf0e7a218936d4ca47045cefcd2186a146d358a60ac",
+    "UI/UI14.png": "1d73fb7deaf0965ada85d1fc8a19f3910826393c0a6f3ee19472c7c6dda101e6",
+    "UI/校园二手交易系统_UI.drawio": "e9ca3de201c0f5069050308bb055ea78458e9248c17ffac29cd59cd82c440d59",
+    "UML/01_类图.png": "2e469519eff9b8dbc9b4b760309ae63a710104566f5e98adbe339dd690bf7707",
+    "UML/01_类图.puml": "1b8cd36dce39b0bb97671be20d0c394573452624abd94820a5a8e813d1dcaa50",
+    "UML/02_组件图.png": "7b361af9d21cbb1d6dd4fe354562447d61d777c442cb6218e8f8a925b1988d9e",
+    "UML/02_组件图.puml": "cf8284035e0f3a9bd708702708131aa44655f2195285a0f20e9a890f48d5eb7c",
+    "UML/03_状态图.png": "6a0a554a9b6b1c8e29f81cf12a86bd95769359b3122623055454f44e9a312a0c",
+    "UML/03_状态图.puml": "335fcd4a5948382c908a2d4a12f93f2002c626b3d8487c57cd9cae09689879f7",
+    "UML/04_时序图.png": "8b74b1172ca9b073a261c5de51a2b9f0d5bccb7cf0b7816e812fab1f42361dbb",
+    "UML/04_时序图.puml": "a060f09523e3982b9b90f5f8e890f91e405dfc68ab20fede599939e08534d183"
+  },
+  "hash_convention": "PNG raw bytes; text source UTF-8 bytes with LF newlines."
+}

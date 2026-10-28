@@ -1,5 +1,9 @@
 # 实验1提交仓库协作约定
 
+- 当前新增实验2（2026-10-28）：lab2/保留四种PlantUML图及14页draw.io原稿、PNG、报告源码；个人Word/PDF/ZIP在private/lab2及private/submission。实验1文件、标签及已提交包不改动。
+- lab2-ai-draft固定AI初稿；本人已于2026-10-28对关键业务边界、UI14页内取消原因和模块化单体方案给出保留意见，见lab2/human-review.md。真实结果为三项均保留，不伪造人工改图或直接声称已经有人工修改；后续本人修改独立提交。
+- 实验2公开PNG只允许lab2/UML与lab2/UI目录，需检查画面并移除所有元数据；源文件同步扫描。学号、个人报告、打包ZIP仍不得上传公开仓库。
+
 - 2026-10-24用户授权更名：当前仓库为software-engineering-labs；旧项目为software-engineering-labs-2026-outdated且已归档。后续只向当前仓库推送。
 - 更名不改动实验标签、冻结的requirements.md和chat.txt或既有提交包；旧网址已验证会重定向。报告中的历史地址不为更名重写。
 

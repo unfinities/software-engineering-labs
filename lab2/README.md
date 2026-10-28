@@ -6,4 +6,16 @@
 
 设计阶段采用模块化单体与关系数据库。数据库索引、请求记录、联系方式加密、失败日志补录属于乙方设计方案，不冒充甲方新增确认。性能环境仍待甲方确认。
 
-人工审查尚待本人完成，不建立lab2-final标签，不虚构人工修改。请依据human-review.md审查具体图稿、界面和设计取舍；收到本人意见后另建真实修订提交。
+本人已于2026-10-28完成三项设计核对并均保留，详见human-review.md。AI图稿修订与本人审查记录使用不同Git提交，不伪造人工改图；未创建lab2-final。
+
+## 工具与重建
+
+PlantUML 1.2026.9，draw.io Desktop 32.6.1。UML图用官方JAR本地渲染，UI图用官方draw.io命令导出；PNG已移除编辑器及本机元数据。
+
+```console
+java -Djava.awt.headless=true -jar plantuml.jar -charset UTF-8 -tpng lab2/UML/*.puml
+drawio --export --format png --page-index 1 --width 1800 --theme light --output UI01.png lab2/UI/校园二手交易系统_UI.drawio
+python scripts/check_lab2.py
+```
+
+依次使用1～14作为page-index导出所有UI。建议PLANTUML_LIMIT_SIZE=12000以防大图截边；公开图片应去除元数据后再提交。只下载官方工具，不把工具二进制或凭据纳入Git。
