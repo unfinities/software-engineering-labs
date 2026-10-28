@@ -14,7 +14,8 @@ skinparam noteBackgroundColor #FFF7DB
 skinparam noteBorderColor #D6BD72
 skinparam roundcorner 8
 skinparam dpi 160
-title 状态图 商品生命周期与预约联动
+title 状态图 商品八态与预约联动
+top to bottom direction
 hide empty description
 state "草稿" as Draft
 state "待审核" as Pending
@@ -24,38 +25,39 @@ state "已预约" as Reserved
 state "待交接" as Handover
 state "已售出" as Sold
 state "已下架" as Offline
-[*] --> Draft : 新建商品
-Draft --> Pending : 卖家提交 [内容合法且未锁定]
-Pending --> Published : 管理员审核通过
-Pending --> Rejected : 管理员驳回 [填写原因]
-Pending --> Draft : 卖家撤回 [未锁定]
-Rejected --> Draft : 卖家修改 [未锁定]
-Published --> Draft : 卖家撤回修改 [无有效预约且未锁定]
-Offline --> Draft : 卖家修改 [已解除锁定]
-Published --> Reserved : 他人预约 / 建立等待确认预约及快照
-Reserved --> Handover : 卖家接受 [填写卖家联系]
-Reserved --> Published : 买家取消或卖家拒绝 / 预约结束
-Handover --> Published : 任一交易方取消 [填写原因] / 预约已取消
-Handover --> Sold : 卖家二次确认 / 预约已完成并记录完成时间
-Published --> Offline : 卖家下架
-Reserved --> Offline : 卖家下架 [填写原因] / 预约已终止
-Handover --> Offline : 卖家下架 [填写原因] / 预约已终止
-Pending --> Offline : 管理员违规处理 / 锁定并记录原因
-Published --> Offline : 管理员违规处理 / 锁定并记录原因
-Reserved --> Offline : 管理员违规处理 / 锁定且预约已终止
-Handover --> Offline : 管理员违规处理 / 锁定且预约已终止
-Sold : 违规处理只追加历史；状态不变
-Offline : 解锁只清除附加锁定标记；不自动发布
-note bottom of Reserved
-  等待确认取消仅买家；卖家拒绝必须有原因。
-  本图未画出的转换一律禁止；预约不自动超时。
+[*] --> Draft : 新建
+Draft -right-> Pending : 合法提交
+Pending -right-> Rejected : 驳回有原因
+Rejected --> Draft : 修改重审
+Pending --> Draft : 卖家撤回
+Pending --> Published : 审核通过
+Published -right-> Reserved : 他人预约
+Reserved -right-> Handover : 卖家接受并提供联系
+Handover --> Sold : 卖家二次确认完成
+Published --> Draft : 撤回修改
+Offline --> Draft : 未锁定时修改
+Reserved --> Published : 买家取消 / 卖家拒绝
+Handover --> Published : 任一方带原因取消
+Pending --> Offline : 管理员违规
+Published --> Offline : 卖家下架 / 管理员违规
+Reserved --> Offline : 带原因下架 / 违规
+Handover --> Offline : 带原因下架 / 违规
+Sold : 违规只追加历史，状态不变
+Offline : 解锁仅清除锁定，不自动发布
+note bottom of Draft
+  编辑、提交或撤回必须未锁定。
+  已发布修改前撤回；已售出不可编辑。
+end note
+note right of Reserved
+  商品已预约 对应 预约等待确认。
+  商品待交接 对应 预约待交接。
+  取消 / 拒绝后预约进入对应结束态；拒绝有原因。
+  下架有效预约同步终止；管理员违规同时锁定。
 end note
 note bottom of Sold
-  所有角色均不得回退、下架、重约或恢复在售。
-  完成或任何结束后，交易双方不能再读取联系方式。
-end note
-note bottom of Offline
-  图中商品、预约和成功日志的联动在同一事务内。
-  失败均回滚；违规锁定是附加标记，不是第九种状态。
+  商品、预约、成功日志整体提交；失败整体回滚。
+  完成保存时间及预约价，任何角色不得回退已售出。
+  结束后双方不能读取联系；预约不自动超时。
+  未画出的状态转换均禁止，锁定不是第九态。
 end note
 @enduml

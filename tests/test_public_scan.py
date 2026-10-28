@@ -57,6 +57,19 @@ class PublicScanTests(unittest.TestCase):
         writer.write(output)
         self.assertIn("pdf-attachment", SCAN.scan_content("report.pdf", output.getvalue()))
 
+    def test_png_metadata_and_location(self):
+        from PIL import Image, PngImagePlugin
+        clean = io.BytesIO()
+        Image.new("RGB", (20, 20), "white").save(clean, format="PNG")
+        self.assertEqual(SCAN.scan_content("lab2/UI/UI01.png", clean.getvalue()), [])
+        self.assertIn("unreviewed-image-location", SCAN.scan_content("other.png", clean.getvalue()))
+        metadata = PngImagePlugin.PngInfo()
+        metadata.add_text("Comment", "gh" + "p_" + "C" * 36)
+        embedded = io.BytesIO()
+        Image.new("RGB", (20, 20)).save(embedded, format="PNG", pnginfo=metadata)
+        self.assertIn("github-token", SCAN.scan_content("lab2/UI/UI01.png", embedded.getvalue()))
+        self.assertIn("unreadable-png", SCAN.scan_content("lab2/UI/UI01.png", b"invalid"))
+
 
 if __name__ == "__main__":
     unittest.main()

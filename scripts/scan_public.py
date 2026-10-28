@@ -76,6 +76,24 @@ def scan_content(name, data):
         except Exception:
             issues.append("unreadable-pdf")
         return sorted(set(issues))
+    if path.suffix.lower() == ".png":
+        # Only the reviewed lab2 diagrams/UI may use this binary format.
+        # Sources are separately scanned; published renders have no embedded editor metadata.
+        if path.parent.as_posix() not in {"lab2/UML", "lab2/UI"}:
+            issues.append("unreviewed-image-location")
+        try:
+            from PIL import Image
+            with Image.open(io.BytesIO(data)) as picture:
+                if picture.format != "PNG" or picture.width > 12000 or picture.height > 12000:
+                    issues.append("unexpected-image-format-or-size")
+                for value in picture.info.values():
+                    issues += scan_text(str(value))
+                if picture.info:
+                    issues.append("unreviewed-png-metadata")
+                picture.verify()
+        except Exception:
+            issues.append("unreadable-png")
+        return sorted(set(issues))
     allowed = (path.suffix.lower() in TEXT_SUFFIXES or basename in {".gitignore", ".gitattributes", ".env.example"}
                or (len(path.parts) == 2 and path.parts[0] == ".githooks"))
     if not allowed:

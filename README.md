@@ -1,5 +1,15 @@
 # 校园二手交易系统 · 软件工程实验
 
+## 实验2 软件设计与建模
+
+[设计报告源码](lab2/report.md)包含主要功能、七模块划分、数据与事务设计、四种UML说明、14页UI及AI使用记录。图稿采用PlantUML与draw.io生成，源文件均可编辑。
+
+- [UML目录](lab2/UML)：必画类图、结构性组件图、行为性状态图、交互性时序图，各含PUML和PNG。
+- [UI目录](lab2/UI)：14张PNG及一个14页draw.io原稿；买家待交接页与卖家完成页分开。
+- [AI使用过程](lab2/ai-usage.md)及[本人审查记录](lab2/human-review.md)：保留AI初稿标签lab2-ai-draft及真实后续修改，不伪造本人修改。
+- 个人Word、PDF与课程ZIP仅在被忽略的private/保存。实验1标签及提交包不变。
+
+
 当前仓库：https://github.com/unfinities/software-engineering-labs
 
 旧项目仓库现为[software-engineering-labs-2026-outdated](https://github.com/unfinities/software-engineering-labs-2026-outdated)，已归档停止更新。当前仓库由software-engineering-lab1-submission-2026重命名为software-engineering-labs，后续更新使用当前地址。

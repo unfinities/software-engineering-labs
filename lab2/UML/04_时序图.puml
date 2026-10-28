@@ -40,7 +40,7 @@ else 当前身份权限通过
     C --> UI : 处理中，允许查询或重试
   else 新请求 / 临时故障且无业务更新的重试
     group 单个数据库事务
-      C -> DB : BEGIN；争取唯一命令处理权
+      C -> DB : BEGIN；唯一命令记录争取处理权\n已被占用则转查原处理状态
       C -> S : 重检当前状态、非本人商品、必填联系
       S -> DB : 条件更新 Item\nWHERE status=已发布 AND version=预期版本
       alt 输入非法 / 状态冲突 / 竞争失败
