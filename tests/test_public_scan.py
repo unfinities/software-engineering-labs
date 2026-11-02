@@ -12,6 +12,12 @@ class PublicScanTests(unittest.TestCase):
     def test_public_content(self):
         self.assertEqual(SCAN.scan_content("requirements.md", "没有凭据的需求框架".encode()), [])
 
+    def test_cpp_sources_and_fixed_uml_locations(self):
+        self.assertEqual(SCAN.scan_content("lab3/code/src/main.cpp", b"int main() { return 0; }"), [])
+        self.assertEqual(SCAN.scan_content("lab3/code/.clang-format", b"BasedOnStyle: Google"), [])
+        self.assertIn("github-token", SCAN.scan_content("lab3/code/include/config.h",
+                      ("gh" + "p_" + "D" * 36).encode()))
+
     def test_github_credential(self):
         candidate = "gh" + "p_" + "A" * 36
         self.assertIn("github-token", SCAN.scan_text(candidate))

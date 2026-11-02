@@ -1,0 +1,70 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 时序图 预约命令的实际事务与重发处理
+autonumber
+actor 买家 as Buyer
+boundary "Windows预约窗口" as UI
+control "Service" as S
+database "SQLite" as DB
+control "Failure日志" as Log
+Buyer -> UI : 填写联系方式并发起预约
+UI -> S : Execute(token, Command)
+S -> S : Require当前会话 / Authorize对象归属
+alt 未登录或无权限
+  S -> Log : 静态失败类型与可知身份
+  S --> UI : 拒绝，不返回过去结果
+else 当前权限通过
+  S -> DB : BEGIN IMMEDIATE
+  alt 写锁等待超过5秒
+    S -> Log : processing
+    S --> UI : 提示处理中，可重试同次请求
+  else 取得写锁
+    S -> DB : 查询actor_id + request_id回执
+    alt 已成功且内容摘要一致
+      DB --> S : result_id
+      S -> DB : COMMIT只读回执检查
+      S --> UI : 原对象编号，不返回缓存联系方式
+    else 编号相同但内容改变
+      S -> DB : ROLLBACK
+      S -> Log : invalid_input
+      S --> UI : 拒绝，修正内容应使用新请求编号
+    else 新请求或未提交成功的重试
+      S -> S : 重验权限 状态 版本 非本人商品 必填联系
+      group 同一事务内
+        S -> DB : 条件更新商品为已预约
+        S -> DB : 插入预约及快照、DPAPI私有联系
+        S -> DB : 插入成功日志与唯一回执
+      end
+      alt 任一步失败
+        S -> DB : ROLLBACK
+        S -> Log : 事务外记录；数据库故障则本地文件
+        S --> UI : 失败原因，临时故障可重试
+      else 全部成功
+        S -> DB : COMMIT
+        S --> UI : 新预约编号
+      end
+    end
+  end
+end
+UI -> S : Reservation(token, id) / 刷新列表
+S -> DB : 查询当前预约状态和身份
+S --> UI : 每次按当前状态裁剪联系方式
+note over S, DB
+  写事务串行争取商品，唯一有效预约索引提供数据库约束。
+  成功业务、日志及回执同时提交；失败日志独立保留。
+end note
+@enduml

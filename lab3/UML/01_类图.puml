@@ -1,0 +1,85 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 实验3 C++实现类图
+hide empty members
+class Application {
+ - service_: Service
+ - session_: Session
+ + Run(): int
+ - Refresh()
+ - TradeDetails(id)
+}
+class Form {
+ + inputs: vector<Input>
+ + buttons: vector<callback>
+ + Show(parent, title)
+}
+class Service {
+ - db_: Database
+ - sessions_: map<string, Session>
+ + Register(username, password, invitation)
+ + Login(username, password): Session
+ + Execute(token, command): string
+ + Items(token, search): Rows
+ + Reservation(token, id): Row
+ + Statistics(token, start, end): Rows
+ - Authorize(actor, command)
+ - ApplyItem(actor, command)
+ - ApplyTrade(actor, command)
+ - Failure(actor, command, kind)
+}
+class Database {
+ - handle_: sqlite3*
+ + Query(sql, boundArgs): Rows
+ + Exec(sql, boundArgs)
+}
+class Transaction {
+ - db_: Database*
+ - committed_: bool
+ + Commit()
+ + ~Transaction()
+}
+class Session <<struct>> {
+ + token, user_id, username: string
+ + admin: bool
+}
+class Command <<struct>> {
+ + action, object_id, request_id: string
+ + fields: Row
+}
+class Search <<struct>> {
+ + scope, keyword, category, status: string
+ + minimum, maximum: string
+ + page: int
+}
+Application *-- Service
+Application *-- Session
+Application ..> Form
+Service *-- Database
+Service ..> Transaction
+Service ..> Command
+Service ..> Search
+Transaction --> Database
+note bottom of Service
+  领域对象落入关系表 items、reservations、users、moderation。
+  对外查询使用 Row/Rows 白名单 DTO；私有联系不进入列表。
+  七个逻辑模块共享服务与事务，未实现分布式网络服务。
+end note
+note bottom of Transaction
+  RAII析构自动回滚；成功日志与回执在同一事务内。
+end note
+@enduml

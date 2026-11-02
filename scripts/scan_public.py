@@ -12,7 +12,7 @@ DENIED_SUFFIXES = {".zip", ".7z", ".rar", ".gz", ".tar", ".htm", ".pem", ".key",
                    ".p12", ".pfx", ".db", ".sqlite", ".sqlite3", ".wav", ".mp3", ".m4a", ".mp4"}
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".yml", ".yaml", ".toml", ".json", ".csv",
                  ".js", ".ts", ".tsx", ".jsx", ".css", ".html", ".sh", ".ps1", ".xml",
-                 ".puml", ".drawio", ".svg"}
+                 ".puml", ".drawio", ".svg", ".cpp", ".h", ".c", ".rc", ".manifest", ".cmake"}
 RULES = {
     "github-token": re.compile(r"\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})\b"),
     "api-secret-token": re.compile(r"\bsk-(?:proj-|svcacct-)?[A-Za-z0-9_-]{20,}\b"),
@@ -79,7 +79,7 @@ def scan_content(name, data):
     if path.suffix.lower() == ".png":
         # Only the reviewed lab2 diagrams/UI may use this binary format.
         # Sources are separately scanned; published renders have no embedded editor metadata.
-        if path.parent.as_posix() not in {"lab2/UML", "lab2/UI"}:
+        if path.parent.as_posix() not in {"lab2/UML", "lab2/UI", "lab3/UML"}:
             issues.append("unreviewed-image-location")
         try:
             from PIL import Image
@@ -94,7 +94,7 @@ def scan_content(name, data):
         except Exception:
             issues.append("unreadable-png")
         return sorted(set(issues))
-    allowed = (path.suffix.lower() in TEXT_SUFFIXES or basename in {".gitignore", ".gitattributes", ".env.example"}
+    allowed = (path.suffix.lower() in TEXT_SUFFIXES or basename in {".gitignore", ".gitattributes", ".env.example", ".clang-format"}
                or (len(path.parts) == 2 and path.parts[0] == ".githooks"))
     if not allowed:
         issues.append("unreviewed-file-type")

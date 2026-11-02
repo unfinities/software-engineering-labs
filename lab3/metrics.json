@@ -1,0 +1,67 @@
+{
+  "method": "UTF-8 C++ files; tests and third-party excluded from production; conservative nonblank noncomment nonbrace count",
+  "production_physical": 2025,
+  "production_noncomment_nonbrace": 1628,
+  "files": [
+    {
+      "file": "include/market/database.h",
+      "physical": 52,
+      "noncomment_nonbrace": 39,
+      "test": false
+    },
+    {
+      "file": "include/market/security.h",
+      "physical": 26,
+      "noncomment_nonbrace": 23,
+      "test": false
+    },
+    {
+      "file": "include/market/service.h",
+      "physical": 77,
+      "noncomment_nonbrace": 62,
+      "test": false
+    },
+    {
+      "file": "include/market/ui.h",
+      "physical": 10,
+      "noncomment_nonbrace": 7,
+      "test": false
+    },
+    {
+      "file": "src/database.cpp",
+      "physical": 96,
+      "noncomment_nonbrace": 64,
+      "test": false
+    },
+    {
+      "file": "src/main.cpp",
+      "physical": 38,
+      "noncomment_nonbrace": 28,
+      "test": false
+    },
+    {
+      "file": "src/security.cpp",
+      "physical": 235,
+      "noncomment_nonbrace": 171,
+      "test": false
+    },
+    {
+      "file": "src/service.cpp",
+      "physical": 712,
+      "noncomment_nonbrace": 599,
+      "test": false
+    },
+    {
+      "file": "src/ui.cpp",
+      "physical": 779,
+      "noncomment_nonbrace": 635,
+      "test": false
+    },
+    {
+      "file": "tests/service_test.cpp",
+      "physical": 413,
+      "noncomment_nonbrace": 361,
+      "test": true
+    }
+  ]
+}

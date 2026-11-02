@@ -1,5 +1,7 @@
 # 实验1提交仓库协作约定
 
+- 实验3（2026-11-02）：用户确认Windows本机C++图形应用、多账号多开、SQLite共享数据；桌面导航和性能口径适配，核心业务保留。lab3保存代码与实现UML，不改动实验1/2。已告知课程禁止AI撰写实验3报告；用户随后再次明确要求生成DOCX初稿供其修改，覆盖此前仅空白模板的选择。按此新指令提供标明AI辅助的初稿，不能伪造本人逐行检查或个人反思；用户修改后再转换PDF并制作正式提交ZIP。公开图片新增仅lab3/UML，截图和运行数据在private/lab3；测试自动登录只可在独立MARKET_UI_SMOKE目标，不得编入交付程序。
+
 - 2026-10-28本人直接修改了实验2 Word：以private/lab2/实验报告.docx为个人报告编辑源，保留其字节和版式；不要运行早期生成器覆盖本人修改。lab2/report.md为匿名内容镜像，人工报告修订见human-review.md R2-04和report-revision.md。PDF从当前Word只读转换，ZIP更新前备份旧包；不更改已有标签。
 
 - 当前新增实验2（2026-10-28）：lab2/保留四种PlantUML图及14页draw.io原稿、PNG、报告源码；个人Word/PDF/ZIP在private/lab2及private/submission。实验1文件、标签及已提交包不改动。

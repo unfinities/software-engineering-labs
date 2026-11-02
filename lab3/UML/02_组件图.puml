@@ -1,0 +1,37 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam classBackgroundColor #EFF6FF
+skinparam classBorderColor #64748B
+skinparam componentBackgroundColor #EFF6FF
+skinparam componentBorderColor #64748B
+skinparam stateBackgroundColor #EFF6FF
+skinparam stateBorderColor #64748B
+skinparam noteBackgroundColor #FFF7DB
+skinparam noteBorderColor #D6BD72
+skinparam roundcorner 8
+skinparam dpi 160
+title 实验3 Windows本机组件图
+actor "本机用户\n可多开独立窗口" as User
+component "Windows原生界面\nmain.cpp / ui.cpp" as UI
+component "C++业务服务\nservice.cpp\n身份 商品 查询 交易 审核 统计 日志" as Core
+component "SQLite适配与RAII事务\ndatabase.cpp" as Repo
+component "Windows安全服务\nsecurity.cpp\nCNG PBKDF2 / DPAPI" as Security
+database "本机SQLite\nWAL 持久化与唯一有效预约索引" as DB
+artifact "独立故障日志\nfailures.tsv" as File
+User --> UI
+UI --> Core : 当前会话 命令 查询
+Core --> Repo
+Core --> Security
+Repo --> DB : BEGIN IMMEDIATE / COMMIT
+Core --> File : 数据库日志不可用时追加
+File --> Core : 恢复后管理员只读查询
+note bottom of DB
+  多个进程打开同一数据库文件；写事务串行竞争。
+  联系方式由同一Windows账户的DPAPI加密。
+  本机操作系统账户及数据目录为部署信任边界。
+end note
+@enduml
