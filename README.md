@@ -2,7 +2,7 @@
 
 ## 实验3 软件实现与构建
 
-[C++桌面实现](lab3/README.md)包含Windows原生图形应用、SQLite事务与权限校验、四份实现UML、自动化测试和构建步骤。个人运行包、Word报告初稿与工程证据留在本地private/lab3；本人撰写报告后再制作正式提交ZIP。
+[C++桌面实现](lab3/README.md)包含Windows原生图形应用、SQLite事务与权限校验、四份实现UML、自动化测试和构建步骤。本人修改后的Word已于2026-11-03转为PDF并整理正式提交ZIP；个人报告、运行包和提交包仅留本地private目录，公开仓库保留[修订记录](lab3/report-revision.md)。
 
 ## 实验2 软件设计与建模
 

@@ -2,7 +2,7 @@
 
 - 实验3（2026-11-02）：用户确认Windows本机C++图形应用、多账号多开、SQLite共享数据；桌面导航和性能口径适配，核心业务保留。lab3保存代码与实现UML，不改动实验1/2。已告知课程禁止AI撰写实验3报告；用户随后再次明确要求生成DOCX初稿供其修改，覆盖此前仅空白模板的选择。按此新指令提供标明AI辅助的初稿，不能伪造本人逐行检查或个人反思；用户修改后再转换PDF并制作正式提交ZIP。公开图片新增仅lab3/UML，截图和运行数据在private/lab3；测试自动登录只可在独立MARKET_UI_SMOKE目标，不得编入交付程序。
 
-- 实验3报告交付后，以private/lab3/实验报告.docx为后续本人编辑源；收到本人修改后保留其字节与排版，只读转PDF并更新提交包，不得重新运行早期报告生成器覆盖本人修改。private/lab3/submission-staging已有离线code与UML，尚无最终PDF；CampusMarket-Windows-x64.zip仅为运行包，不是正式课程ZIP。
+- 实验3报告以private/lab3/实验报告.docx为本人编辑源；2026-11-03已收到本人修改，保留原DOCX字节与排版并只读转5页PDF，正式ZIP在private/submission中，校验清单为private/lab3/submission-manifest.json。后续同样不得重新运行早期生成器覆盖本人修改。private/lab3/submission-staging保留原离线code与UML，正式整理目录在private/submission下；CampusMarket-Windows-x64.zip仅为运行包。report-draft.md是AI初稿历史，当前修订状态见lab3/report-revision.md。
 
 - 2026-10-28本人直接修改了实验2 Word：以private/lab2/实验报告.docx为个人报告编辑源，保留其字节和版式；不要运行早期生成器覆盖本人修改。lab2/report.md为匿名内容镜像，人工报告修订见human-review.md R2-04和report-revision.md。PDF从当前Word只读转换，ZIP更新前备份旧包；不更改已有标签。
 
